@@ -1,0 +1,74 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+<div *ngIf="selectedAccessory" class="container">
+  <div class="main-content">
+    <div class="main-image">
+      <img [src]="mainImageSrc" alt="{{ selectedAccessory.name }}" id="mainImage" />
+      <div class="product-images">
+        <img *ngFor="let image of [selectedAccessory.image2, selectedAccessory.image3, selectedAccessory.image4, selectedAccessory.image5]"
+             [src]="image" alt="{{ selectedAccessory.name }}" (click)="changeImage(image)" />
+      </div>
+    </div>
+    <div class="product-details">
+      <h2>{{ selectedAccessory.name }}</h2>
+      <div class="price">
+        <span *ngIf="selectedAccessory.discount">
+          <span class="original-price">{{ selectedAccessory.price | currency:'VND' }}</span>
+          <span class="discounted-price">
+            {{ selectedAccessory.price - (selectedAccessory.price * selectedAccessory.discount / 100) | currency:'VND' }}
+          </span>
+        </span>
+        <span *ngIf="!selectedAccessory.discount">
+          {{ selectedAccessory.price | currency:'VND' }}
+        </span>
+      </div>
+
+      <!-- Chọn size -->
+
+      <!-- Các nút hành động -->
+      <div class="buttons">
+        <button class="buy-now" (click)="addToCartAndCheckout()">MUA NGAY</button>
+        <button class="add-to-cart" (click)="addToCart()">THÊM VÀO GIỎ HÀNG</button>
+      </div>
+
+      <div class="icons">
+        <div class="icon-item"><i class="fas fa-phone-alt"></i><br>Hotline đặt hàng (8h30 - 21h)</div>
+        <div class="icon-item"><i class="fas fa-gift"></i><br>Nhận combo quà tặng</div>
+        <div class="icon-item"><i class="fas fa-shipping-fast"></i><br>Giao hàng siêu tốc</div>
+        <div class="icon-item"><i class="fas fa-credit-card"></i><br>Thanh toán tiện lợi</div>
+        <div class="icon-item"><i class="fas fa-truck"></i><br>Miễn phí vận chuyển trên 1 triệu</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <div class="tab">MÔ TẢ SẢN PHẨM</div>
+    <div class="tab-content product-description active">
+      <p><strong>{{ selectedAccessory.name }}</strong></p>
+      <p>Hãng: {{ selectedAccessory.brand }}</p>
+      <p>Loại: {{ selectedAccessory.type }}</p>
+      <p>{{ selectedAccessory.description }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="related-products" *ngIf="relatedAccessories.length > 0">
+  <h3>PHỤ KIỆN LIÊN QUAN</h3>
+  <div class="product-grid">
+    <div *ngFor="let accessory of relatedAccessories" class="product" (click)="goToAccessoryDetails(accessory._id)">
+      <img [src]="accessory.image1" alt="{{ accessory.name }}" />
+      <h4>{{ accessory.name }}</h4>
+      <p>
+        <span *ngIf="accessory.discount">
+          <span class="original-price">{{ accessory.price | currency: 'VND' }}</span>
+          <span class="discounted-price">
+            {{ accessory.price - (accessory.price * accessory.discount / 100) | currency: 'VND' }}
+          </span>
+        </span>
+        <span *ngIf="!accessory.discount">
+          {{ accessory.price | currency: 'VND' }}
+        </span>
+      </p>
+    </div>
+  </div>
+</div>

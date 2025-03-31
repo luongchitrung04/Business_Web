@@ -1,0 +1,45 @@
+<div class="main-container">
+    <div class="container">
+        <div class="image-container">
+            <img alt="A store display with various sports shoes on shelves"
+                src="https://i.pinimg.com/736x/74/74/83/7474832c6c96b6801199e54493697b2b.jpg" />
+        </div>
+        <div class="login-container">
+            <h2>
+                ĐĂNG KÝ
+            </h2>
+            <input placeholder="Họ" type="text" name="userLastname" id="userLastname" [(ngModel)]="lastname" />
+            <input placeholder="Tên" type="text" name="userFirstname" id="userFirstname" [(ngModel)]="firstname" />
+            <input placeholder="Email" type="text" name="userEmail" id="userEmail" [(ngModel)]="email" />
+            <input placeholder="Mật khẩu" type="password" name="userPassword" id="userPassword" [(ngModel)]="password" />
+            <input placeholder="Xác nhận lại mật khẩu" type="password" [(ngModel)]="confirmPassword" />
+            <button class="submit-btn" (click)="Submit()">
+                ĐĂNG KÝ
+            </button>
+    
+            <div class="or">
+                <span>
+                    HOẶC
+                </span>
+            </div>
+            <div class="social-login">
+                <a class="facebook" href="#">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                    Facebook
+                </a>
+                <a class="google" href="#">
+                    <i class="fab fa-google">
+                    </i>
+                    Google
+                </a>
+            </div>
+            <div class="register">
+                Bạn đã có tài khoản ProKicks?
+                <button routerLink="/login" routerLinkActive="active">
+                    Đăng nhập
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

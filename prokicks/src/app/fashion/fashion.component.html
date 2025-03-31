@@ -1,0 +1,149 @@
+
+
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item" [class.active]="i === 0" *ngFor="let image of images; let i = index">
+      <img [src]="image" class="d-block w-100" alt="Image {{i+1}}">
+    </div>
+  </div>
+  <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#carouselExample"
+    data-bs-slide="prev" (click)="prevImage()">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next custom-carousel-control" type="button" data-bs-target="#carouselExample"
+    data-bs-slide="next" (click)="nextImage()">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<button class="btn-keongon">KÈO NGON</button>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Danh sách Giày -->
+<div class="main">
+  <div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left" (click)="previousSlide()" tabindex="0"></i>
+    <ul class="carousel" #carousel>
+      <li class="card" *ngFor="let shoe of discountedShoes" (click)="goToProductDetails(shoe._id)">
+        <div class="discount-tag">
+          -{{shoe.discount}}%
+        </div>
+        <div class="heart-icon">
+          KÈO NGON
+        </div>
+        <div class="img">
+          <img [src]="shoe.image1" alt="{{ shoe.name }}" draggable="false">
+        </div>
+        <h5>{{ shoe.name }}</h5>
+        
+        <div class="price">
+            <span *ngIf="shoe.discount">
+              <span class="original-price">{{ shoe.price | currency:'VND' }}</span>
+              <span class="discounted-price">
+                {{ shoe.price - (shoe.price * shoe.discount / 100) | currency:'VND' }}
+              </span>
+            </span>
+            <span *ngIf="!shoe.discount">
+              {{ shoe.price | currency:'VND' }}
+            </span>
+        </div>
+        
+      </li>
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right" (click)="nextSlide()" tabindex="0"></i>
+  </div>
+</div>
+<button class="seeall" routerLink="/sales" routerLinkActive="active">XEM TẤT CẢ</button>
+
+<nav class="nav nav-tabs custom-nav">
+  <a class="nav-link" [class.active]="activeTab === 'all'" (click)="changeTab('all')">TẤT CẢ GIÀY</a>
+  <a class="nav-link" [class.active]="activeTab === 'new'" (click)="changeTab('new')">GIÀY MỚI VỀ</a>
+  <a class="nav-link" [class.active]="activeTab === 'synthetic'" (click)="changeTab('synthetic')">GIÀY SÂN NHÂN TẠO</a>
+  <a class="nav-link" [class.active]="activeTab === 'natural'" (click)="changeTab('natural')">GIÀY SÂN TỰ NHIÊN</a>
+  <a class="nav-link" [class.active]="activeTab === 'futsal'" (click)="changeTab('futsal')">GIÀY SÂN FUTSAL</a>
+</nav>
+
+
+<div class="main">
+  <div class="wrapper">
+    <i id="left2" class="fa-solid fa-angle-left" (click)="previousSlide2()" tabindex="0"></i>
+    <ul class="carousel" #carousel2>
+      <li class="card" *ngFor="let shoe of filteredShoes" (click)="goToProductDetails(shoe._id)">
+        <div class="discount-tag" *ngIf="shoe.discount">
+          -{{shoe.discount}}%
+        </div>
+        <div class="heart-icon" *ngIf="shoe.discount">
+          KÈO NGON
+        </div>
+        <div class="img">
+          <img [src]="shoe.image1" alt="{{ shoe.name }}" draggable="false">
+        </div>
+        <h5>{{ shoe.name }}</h5>
+        <div class="price">
+          <span *ngIf="shoe.discount">
+            <span class="original-price">{{ shoe.price | currency:'VND' }}</span>
+            <span class="discounted-price">
+              {{ shoe.price - (shoe.price * shoe.discount / 100) | currency:'VND' }}
+            </span>
+          </span>
+          <span *ngIf="!shoe.discount">
+            {{ shoe.price | currency:'VND' }}
+          </span>
+      </div>
+      </li>
+    </ul>
+    <i id="right2" class="fa-solid fa-angle-right" (click)="nextSlide2()" tabindex="0"></i>
+  </div>
+</div>
+<button class="seeall" routerLink="/product" routerLinkActive="active">XEM TẤT CẢ</button>
+
+<button class="btn-phukien">PHỤ KIỆN</button>
+
+<div class="main">
+  <div class="wrapper">
+    <i id="left3" class="fa-solid fa-angle-left" (click)="previousSlide3()" tabindex="0"></i>
+    <ul class="carousel" #carousel3>
+      <li class="card" *ngFor="let accessory of accessories" (click)="goToAccessoryDetails(accessory._id)">
+        <div class="img">
+          <img [src]="accessory.image1" alt="{{ accessory.name }}" draggable="false">
+        </div>
+        <h5>{{ accessory.name }}</h5>
+        <div class="price">
+          {{ accessory.price | currency:'VND':'symbol':'1.0-0' }}
+        </div>
+      </li>
+    </ul>
+    <i id="right3" class="fa-solid fa-angle-right" (click)="nextSlide3()" tabindex="0"></i> 
+  </div>
+</div>
+<button class="seeall">XEM TẤT CẢ</button>
+
+<button class="btn-phukien" routerLink="/accessory" routerLinkActive="active">TIN TỨC GIÀY</button>
+
+<div class="main">
+  <div class="wrapper">
+    <i id="left4" class="fa-solid fa-angle-left" (click)="previousSlide4()" tabindex="0"></i>
+    <ul class="carousel" #carousel4>
+      <li class="card" *ngFor="let  new of news" (click)="goToNewDetails(new._id)">
+        <div class="img">
+          <img [src]="new.image" alt="{{ new.name }}" draggable="false">
+        </div>
+        <h5>{{ new.title }}</h5>
+
+      </li>
+    </ul>
+    <i id="right4" class="fa-solid fa-angle-right" (click)="nextSlide4()" tabindex="0"></i>
+  </div>
+</div>
+<button class="seeall" routerLink="/new" routerLinkActive="active">XEM TẤT CẢ</button>
+
+<div class="mp3-div">
+  <img src="./assets/mp3.jpg" alt="" class="mp3image">
+</div>

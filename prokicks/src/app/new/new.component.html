@@ -1,0 +1,41 @@
+<div class="news-container">
+  <h1 style="margin: auto; font-weight: bold;">TIN TỨC GIÀY</h1>
+  <h3 style="margin: auto; font-weight: bold;">BÀI VIẾT NỔI BẬT</h3>
+    <!-- Highlight the newest news article -->
+    <div class="highlighted-news" *ngIf="news.length > 0">
+      <img [src]="news[0].image" alt="Highlight News Image" />
+      <div class="highlighted-content">
+        <h2>{{ news[0].title }}</h2>
+        <p>{{ news[0].description }}</p>
+        <button type="button" class="btn btn-light" (click)="goToNewDetails(news[0]._id)">Đọc thêm</button>
+      </div>
+    </div>
+  
+    <!-- Display the rest of the news in two columns -->
+    <h3 style="margin: auto; font-weight: bold;">TẤT CẢ BÀI VIẾT</h3>
+    <div class="news-grid">
+      <div
+        class="news-item"
+        *ngFor="let newItem of paginatedNews.slice(1)" 
+        (click)="goToNewDetails(newItem._id)"
+      >
+        <img [src]="newItem.image" alt="News Image" />
+        <div class="news-content">
+          <h3>{{ newItem.title }}</h3>
+          <p>{{ newItem.description | slice: 0:100 }}Đọc thêm</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Pagination controls -->
+    <div class="pagination">
+      <a href="javascript:void(0)" (click)="goToPage(1)" [class.disabled]="currentPage === 1">««</a>
+      <a href="javascript:void(0)" (click)="previousPage()" [class.disabled]="currentPage === 1">«</a>
+      <span *ngFor="let page of pages">
+        <a href="javascript:void(0)" (click)="goToPage(page)" [class.active]="page === currentPage">{{ page }}</a>
+      </span>
+      <a href="javascript:void(0)" (click)="nextPage()" [class.disabled]="currentPage === totalPages">»</a>
+      <a href="javascript:void(0)" (click)="goToPage(totalPages)" [class.disabled]="currentPage === totalPages">»»</a>
+    </div>
+</div>
+  

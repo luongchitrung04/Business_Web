@@ -1,0 +1,821 @@
+[{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b51"
+  },
+  "id": 1,
+  "name": "Quả bóng đá Nike Football Premier League Club Elite - White/Bold Berry/Volt/Black FZ3130-099",
+  "brand": "Nike",
+  "type": "Bóng",
+  "date": "06/05/2024",
+  "price": 1690000,
+  "image1": "https://product.hstatic.net/1000061481/product/premier-league-club-elite-nike-soccer-ball-in-white-size-5-fz3130-100_c772003ffa394851a825b874791332bc_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04351_ecd157590b5c487d8da89f980354da6b_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04352_eb1d08626ca941b5845a734b26602dbf_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04354_ae1482299835426e876aff41c1f7da08_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04356_3afcd5c5326545b59f3ec6005e89b237_1024x1024.jpg",
+  "description": "Quả bóng đá Nike Football Premier League Club Elite - White/Bold Berry/Volt/Black FZ3130-100 được thiết kế với vỏ ngoài có các rãnh đặc biệt, giúp tạo sự ổn định và nhất quán trong mọi pha chuyền bóng. Công nghệ Nike Aerowsculpt tiên tiến với các rãnh đúc giúp bóng bay ổn định, mang lại độ chính xác cao khi thi đấu. Với lớp ruột cao su bền bỉ, quả bóng duy trì áp suất không khí và giữ nguyên hình dạng sau nhiều lần sử dụng. Bên cạnh đó, thiết kế tối ưu còn mang lại cảm giác tiếp xúc tốt hơn, cho phép người chơi cảm nhận bóng rõ ràng và kiểm soát tốt hơn."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b52"
+  },
+  "id": 2,
+  "name": "Quả bóng đá adidas Football Pro Champions League 2024/25 Match Ball - White/Black/Platin Metallic/Solar Yellow IS7438",
+  "brand": "Adidas",
+  "type": "Bóng",
+  "date": "19/08/2024",
+  "price": 3190000,
+  "image1": "https://product.hstatic.net/1000061481/product/adidas-ucl-pro-4067896828084-1_6f7b4e181a304eb2b4a3f2c18a5106c6_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04108_2a5f64e5a2df411abce81580453765f6_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04110_7d8bfde35ab44b8cb3c904c4194e2149_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04112_bb7e897bad164c4b8ba4600706934691_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04115_794d2d6aec054dce977f56fd5c8b9f6a_1024x1024.jpg",
+  "description": "Quả bóng Champions League 2024-2025 sở hữu thiết kế ấn tượng với nền trắng, các ngôi sao đen đặc trưng và viền vàng chanh tinh tế, tạo nên vẻ đẹp hài hòa và nổi bật. Logo Adidas màu cam sáng là điểm nhấn bắt mắt, thể hiện sự đẳng cấp và sang trọng của giải đấu danh giá. Điểm đặc biệt của quả bóng này là các rãnh khí động học tiên tiến trên bề mặt, mô phỏng hình sao và lục giác, giúp giảm sức cản không khí, hỗ trợ bóng bay nhanh và ổn định hơn, đồng thời mang lại khả năng kiểm soát tốt cho cầu thủ. Công nghệ này không chỉ tối ưu trải nghiệm thi đấu mà còn tạo ra những pha bóng chính xác, đẹp mắt cho khán giả."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b53"
+  },
+  "id": 3,
+  "name": "Quả bóng đá adidas Football League Champions League 2024/25 - White/Black/Platin Metallic/Solar Yellow IX4060",
+  "brand": "Adidas",
+  "type": "Bóng",
+  "date": "10/02/2024",
+  "price": 950000,
+  "image1": "https://product.hstatic.net/1000061481/product/1721225653_ee873f7e8c2a5641ed4f5714bd6fd15e_b4aa433b215b43efb05b366346eb590e_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04133_0b46271ee31542f894faaf3c0609331c_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04134_b00085c98385431caf50c38a148ca3df_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04135_96d16a34f9b54e61ae844b73f0a76f62_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04136_da3182280e664e489d032ed190acd2e7_1024x1024.jpg",
+  "description": "Quả bóng Champions League 2024-2025 mang diện mạo nổi bật với nền trắng tinh khôi, trang trí bởi các ngôi sao đen đại diện cho giải đấu, được nhấn nhá bằng viền vàng chanh thanh mảnh. Logo Adidas màu cam rực rỡ được đặt nổi bật, thu hút ánh nhìn ngay lập tức. Thiết kế tinh tế này không chỉ toát lên vẻ đẹp mà còn thể hiện đẳng cấp của giải đấu hàng đầu châu Âu. Sự kết hợp màu sắc đầy tương phản tạo hiệu ứng thị giác mạnh mẽ, giúp cầu thủ và khán giả dễ dàng quan sát chuyển động của bóng trên sân."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b54"
+  },
+  "id": 4,
+  "name": "Quả bóng đá adidas Football FUSSBALLLIEBE League Final EURO 2024 - Silver Metallic/Gold Metallic/Black IX4046",
+  "brand": "Adidas",
+  "type": "Bóng",
+  "date": "22/09/2024",
+  "price": 950000,
+  "image1": "https://product.hstatic.net/1000061481/product/tai_xuong__85__ea85d0569ec4440c981723b18a487c7e_master_b3200e9a8d54470eb863ac0596c45bb5_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04137_06c34af245f74fee806a76c9b8be159b_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04138_6f6108b8685a46b1bf11028f52ad8548_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04140_18b0c230fba44738aefee74cbe373aef_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04141_6918979c759045f2bd24ad36d13c03b9_1024x1024.jpg",
+  "description": "Quả bóng adidas Fussballliebe Finale League là lựa chọn hoàn hảo cho những trận cầu đỉnh cao năm 2024. Với thiết kế sắc sảo và nổi bật, lấy cảm hứng từ các trận bán kết và chung kết của giải đấu quốc tế hàng đầu châu Âu, quả bóng này mang lại sự cuốn hút khó cưỡng trên sân. Sản phẩm có lớp vỏ TPU tái chế 100%, đảm bảo độ bền vượt trội. Kết cấu TSBE không đường may cùng ruột bóng cao su butyl giúp duy trì hình dáng và độ nảy tối ưu trong suốt trận đấu. Được chứng nhận FIFA Quality và in logo UEFA EURO24™, đây là lựa chọn hoàn hảo cho mọi cầu thủ đam mê bóng đá."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b55"
+  },
+  "id": 5,
+  "name": "Quả bóng đá Adidas Football Pro Champions League London 2024 Match Ball - White/Glow Blue/Flame Orange IN9340",
+  "brand": "Adidas",
+  "type": "Bóng",
+  "date": "01/05/2024",
+  "price": 2290000,
+  "image1": "https://product.hstatic.net/1000061481/product/in9340-1_e5eb2666f4114a27ab5cb031bca0420a_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04100_a6833dde757c49ffb4aa59c6731d025f_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04101_4a3e354e47f541db99191813c42c6f5f_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04102_4f08388675a54ad4af453aa396f4f623_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04106_346567acd4e14ba693e2e9661340c586_1024x1024.jpg",
+  "description": "Quả bóng Adidas Football Pro Champions League London 2024 Match Ball là biểu tượng của đẳng cấp thi đấu chuyên nghiệp, với thiết kế màu White, Glow Blue, và Flame Orange đầy cuốn hút. Sản phẩm sở hữu vỏ TPU cao cấp không đường may cùng ruột bóng cao su butyl, giữ độ bền và khả năng nảy lý tưởng. Được chứng nhận FIFA Quality Pro và in logo Champions League 2024, quả bóng này không chỉ là công cụ thi đấu mà còn là đại diện cho tinh thần của mùa giải đỉnh cao."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b56"
+  },
+  "id": 6,
+  "name": "Quả bóng đá Nike Football Futsal Maestro - Green Glow/Hyper Violet/White",
+  "brand": "Nike",
+  "type": "Bóng",
+  "date": "20/04/2024",
+  "price": 719000,
+  "image1": "https://product.hstatic.net/1000061481/product/ballb_4-02-02-01-01-01-01-01-02-02-02-02-02-02-01-01-02-02-02-02-02-01_cdfaa6f8dadb4d91988254ba298a1690_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms07187_751d15671cd448ec8a75b0bf7e403ae1_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms07188_6fe4549ef80e4481bea75fd0ec6a373a_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms07191_f2edd12106254c23945200725bf9c97a_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms07192_fb7d037ccd814719a9e3a6effc69230f_1024x1024.jpg",
+  "description": "Quả bóng đá trong nhà Nike Football Ball Nk Futsal Maestro-Ho23 (mã FJ5547-342) sở hữu thiết kế chân thực, nổi bật với gam màu trắng, xanh và tím. Được làm với trọng lượng nặng hơn bóng đá thông thường, quả bóng này giảm độ nảy, giữ bóng gần mặt đất – lý tưởng cho các pha kiểm soát và xử lý nhanh trong môi trường futsal. Với kích thước, trọng lượng đạt chuẩn và chứng nhận tiêu chuẩn quốc tế, Nike Futsal Maestro-Ho23 là lựa chọn hoàn hảo cho các trận đấu trong nhà chất lượng cao."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b57"
+  },
+  "id": 7,
+  "name": "Quả bóng đá Adidas Football FUSSBALLLIEBE Training Foil EURO 2024 - Silver Metallic/Black/Glow Blue IN9368",
+  "brand": "Adidas",
+  "type": "Bóng",
+  "date": "11/06/2024",
+  "price": 650000,
+  "image1": "https://product.hstatic.net/1000061481/product/2cbb106f12624ea088a833f40097759e_02f1f79bd9924c729fdc754dcc0b8822_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04081_913bf106fff04300bcc94c307417ba74_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04083_ee9069cf62ba42e9a75b8b6e1fdf2eaa_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04082_0388f0cfcae94377930842a99261e401_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04084_83db6f40f28e4b0eaa7ca158fabb6460_1024x1024.jpg",
+  "description": "Quả bóng đá Adidas Football FUSSBALLLIEBE Training Foil EURO 2024 - Silver Metallic/Black/Glow Blue IN9368 là sự lựa chọn hoàn hảo cho những buổi tập luyện hướng tới đỉnh vinh quang. Được thiết kế với cảm hứng từ giải đấu quốc tế hàng đầu châu Âu, quả bóng này không chỉ mang đến hiệu suất tối ưu mà còn nổi bật với bề mặt hologram độc đáo cùng họa tiết graphic sặc sỡ, phản ánh thiết kế của trái bóng thi đấu chính thức tại Đức. Với lớp vỏ TPU cứng cáp, quả bóng đảm bảo độ bền và khả năng chịu được tần suất sử dụng thường xuyên. Ruột bóng bằng cao su butyl giúp duy trì độ căng cần thiết sau mỗi buổi tập, mang đến cho bạn sự tự tin và phong độ tốt nhất trên sân cỏ."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b58"
+  },
+  "id": 8,
+  "name": "Vớ bóng đá Adidas Football Socks Milano 23 White",
+  "brand": "Adidas",
+  "type": "Vớ",
+  "date": "28/09/2024",
+  "price": 290000,
+  "image1": "https://product.hstatic.net/1000061481/product/screenshot_34_7e0fba438ffa4942a2977c65d8c8e18c_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/p26_63301c8b9a0e4f95a402a2a2de6e3ff7_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/ib7813-1_b0925c42c7cc4548b32eeb5530f35888_1024x1024.jpeg",
+  "image4": "https://product.hstatic.net/1000061481/product/ib7813-2_cbe4e4a9eb61499984cf774282cd7ef1_1024x1024.jpeg",
+  "image5": "https://product.hstatic.net/1000061481/product/ib7813-3_96e4a06e7de9431887bab7dfea875639_1024x1024.jpeg",
+  "description": "Đôi tất đá bóng Adidas Football Socks Milano 23 White là sự kết hợp hoàn hảo giữa hiệu suất và tính bền vững. Với thiết kế cao cổ, sản phẩm này giúp bạn tự do di chuyển và thể hiện kỹ năng trên sân cỏ mà không bị vướng bận. Các vùng nâng đỡ vòm bàn chân và đệm tại những vị trí chiến lược mang lại cảm giác thoải mái, hỗ trợ tốt cho từng bước chạy. Công nghệ AEROREADY thấm hút ẩm hiệu quả, giữ cho đôi chân luôn khô ráo, giúp bạn tập trung hoàn toàn vào trận đấu. Đặc biệt, với hơn 40% thành phần tái chế, đôi tất này không chỉ là một sản phẩm thể thao xuất sắc mà còn thể hiện cam kết của Adidas trong việc bảo vệ môi trường và giảm thiểu rác thải nhựa."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b59"
+  },
+  "id": 9,
+  "name": "Pack 3 đôi vớ Nike Everyday Plus Cushioned Crew",
+  "brand": "Nike",
+  "type": "Vớ",
+  "date": "23/06/2024",
+  "price": 539000,
+  "image1": "https://product.hstatic.net/1000061481/product/c8f7894b983b428da0b827c02bbc1c2b_aa1de7404d0d457b95ce41836b55c80d_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/z5822367186992_e3ea9e62c854cabbd548b7bc7e00d476_b50bea7eaeb1413599e063f8bf80ac45_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/screenshot_107_c4967a0deca9455abadb603f7a15f76d_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/screenshot_106_ddc9733f54b343de85830d4f591a2b85_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/screenshot_105_a73fa074d1b04729a74983c1c1f5c539_1024x1024.jpg",
+  "description": "Vớ Nike Everyday Plus Cushioned Crew mang đến trải nghiệm thoải mái và hỗ trợ vượt trội cho đôi chân của bạn suốt cả ngày. Với lớp đệm bổ sung dưới gót chân và bàn chân trước, sản phẩm giúp giảm thiểu tác động trong quá trình tập luyện. Công nghệ Dri-FIT tiên tiến giữ cho đôi chân luôn khô ráo và thoải mái, trong khi dải vòm vừa vặn cung cấp sự hỗ trợ cần thiết. Thiết kế dệt kim thoáng khí ở phần đầu vớ không chỉ tạo cảm giác dễ chịu mà còn giúp tăng cường sự thông thoáng, giúp bạn dễ dàng vượt qua những buổi tập luyện căng thẳng. Gót chân và ngón chân được gia cố chắc chắn, mang đến độ bền và độ ổn định cho từng bước đi."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b5a"
+  },
+  "id": 10,
+  "name": "Vớ bóng đá Nike Everyday Plus Cushioned Trainings - White/Baltic Blue",
+  "brand": "Nike",
+  "type": "Vớ",
+  "date": "03/02/2024",
+  "price": 199000,
+  "image1": "https://product.hstatic.net/1000061481/product/screenshot_108_cfbf92ad1cee4442a0ad80dff5eebc51_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/screenshot_111_15d9d9a6d38f442f86fed68ab59e8b5a_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/screenshot_110_fe7a413ee09449ebb57384475b55ea85_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/screenshot_109_c7e4f21ecad44cd688d13f49bacdcd73_1024x1024.jpg",
+  "description": "Vớ bóng đá Nike Everyday Plus Cushioned Trainings – White/Baltic Blue mang đến sự thoải mái tối ưu cho người chơi với thiết kế đệm dưới gót chân và bàn chân trước, giúp giảm thiểu tác động trong suốt quá trình tập luyện. Công nghệ Dri-FIT tiên tiến giữ cho chân bạn luôn khô ráo và thoải mái, trong khi dải vòm vừa vặn tạo cảm giác hỗ trợ chắc chắn. Phần đầu vớ được dệt kim thoáng khí, không chỉ mang lại sự thông thoáng mà còn giúp điều hòa nhiệt độ cho đôi chân. Hơn nữa, gót chân và ngón chân được gia cố chắc chắn, nâng cao độ bền và hỗ trợ, đảm bảo rằng bạn có thể tự tin vượt qua mọi thử thách trên sân cỏ."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b5b"
+  },
+  "id": 11,
+  "name": "Vớ bóng đá Nike Everyday Plus Cushioned Trainings - Black/White",
+  "brand": "Nike",
+  "type": "Vớ",
+  "date": "28/03/2024",
+  "price": 199000,
+  "image1": "https://product.hstatic.net/1000061481/product/d71dc6f2bb5247dca25628100d3b682b_9c149f8aa20448af8716f4bcc155067d_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/screenshot_115_8c4e9a97b3d94bb89971043fd7edef58_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/screenshot_114_9db8cb1850a444f185c638207ebf145e_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/screenshot_113_944c2cfa7dc846368e9b1f8573395c9d_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/screenshot_112_6cc187de725849e1b3743fc0ca0adfa7_1024x1024.jpg",
+  "description": "Vớ bóng đá Nike Everyday Plus Cushioned Trainings – Black/White mang đến sự thoải mái tối ưu cho người chơi với thiết kế đệm dưới gót chân và bàn chân trước, giúp giảm thiểu tác động trong suốt quá trình tập luyện. Công nghệ Dri-FIT tiên tiến giữ cho chân bạn luôn khô ráo và thoải mái, trong khi dải vòm vừa vặn tạo cảm giác hỗ trợ chắc chắn. Phần đầu vớ được dệt kim thoáng khí, không chỉ mang lại sự thông thoáng mà còn giúp điều hòa nhiệt độ cho đôi chân. Hơn nữa, gót chân và ngón chân được gia cố chắc chắn, nâng cao độ bền và hỗ trợ, đảm bảo rằng bạn có thể tự tin vượt qua mọi thử thách trên sân cỏ."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b5c"
+  },
+  "id": 12,
+  "name": "Vớ bóng đá Adidas Football Socks Milano 23 Black",
+  "brand": "Adidas",
+  "type": "Vớ",
+  "date": "14/09/2024",
+  "price": 290000,
+  "image1": "https://product.hstatic.net/1000061481/product/65310028607a_adidas_milano_23_fussballocken_unisex_schwarz_033640e576ed42eaac3aa796847a6dc8_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/p42_c61ad20cc5e34185b60ff5dc2afcd741_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/tat-milano-23-djen-ht6538-03-standard_fb36f8d4834242818423a43b17b16085_1024x1024.jpeg",
+  "image4": "https://product.hstatic.net/1000061481/product/tat-milano-23-djen-ht6538-41-detail-hover_f1a4e4955b984573a778a0de4f48f6d7_1024x1024.jpeg",
+  "image5": "https://product.hstatic.net/1000061481/product/images__8__f5a31307ce5540cf8be794ade9a2bb94_1024x1024.jpg",
+  "description": "Đôi vớ bóng đá Adidas Football Socks Milano 23 Black mang đến sự kết hợp hoàn hảo giữa hiệu suất và phong cách. Với chiều dài đến đầu gối, đôi tất này cung cấp sự hỗ trợ tối ưu cho bàn chân, nhờ vào các vùng nâng đỡ vòm và vùng đệm được thiết kế tỉ mỉ ở những vị trí chiến lược. Công nghệ AEROREADY giúp thấm hút ẩm hiệu quả, giữ cho đôi chân của bạn luôn khô ráo và thoải mái trong suốt trận đấu. Chất liệu chủ yếu là polyester tái chế, với 40% thành phần tái chế, sản phẩm không chỉ giúp bạn tỏa sáng trên sân cỏ mà còn góp phần bảo vệ môi trường. Thiết kế bo gân ở gấu quần cùng vải lưới thoáng khí mang lại sự vừa vặn và dễ chịu, giúp bạn tập trung tối đa vào kỹ năng chơi bóng của mình."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b5d"
+  },
+  "id": 13,
+  "name": "Pack 6 đôi vớ bóng đá Nike Everyday Plus Cushioned Crew",
+  "brand": "Nike",
+  "type": "Vớ",
+  "date": "21/03/2024",
+  "price": 589000,
+  "image1": "https://product.hstatic.net/1000061481/product/568a93470c2543338e94d92d1d419e53_8e9924119fde4a5f8e40be5c581cf58d_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/z5822367186992_e3ea9e62c854cabbd548b7bc7e00d476_3bf1efa687394216b9fda0852bec176d_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04074_0f82d3adcfc3491aab44f036df0aebd3_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04075_d7c00b4314434414adbc95529931124c_1024x1024.jpg",
+  "description": "Đôi vớ bóng đá Nike Everyday Plus Cushioned Crew Pack 6 mang đến sự kết hợp hoàn hảo giữa sự thoải mái và hiệu suất cho cả ngày dài hoạt động. Với lớp đệm bổ sung dưới gót chân và bàn chân trước, sản phẩm giúp giảm thiểu tác động trong quá trình tập luyện, mang lại cảm giác dễ chịu cho đôi chân. Công nghệ Dri-FIT tiên tiến đảm bảo khả năng thấm hút mồ hôi tối ưu, giữ cho bàn chân của bạn luôn khô ráo và thoải mái. Dải vòm vừa vặn tạo cảm giác hỗ trợ và ôm sát, trong khi mẫu dệt kim thoáng khí ở phần trên giúp tăng cường sự thông thoáng, giúp bạn duy trì cảm giác mát mẻ. Gót chân và ngón chân được gia cố, bền bỉ hơn, sẵn sàng đồng hành cùng bạn trong những buổi tập luyện đầy thử thách."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b5e"
+  },
+  "id": 14,
+  "name": "Pack 3 đôi vớ bóng đá Nike Socks Dry Cushion Crew - White/Wolf Grey/Black",
+  "brand": "Nike",
+  "type": "Vớ",
+  "date": "02/06/2024",
+  "price": 539000,
+  "image1": "https://product.hstatic.net/1000061481/product/7014a6747d374159b97823de93a772a7_723f061bfc124e88bae6b8ef6b9eb63b_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/z5822367186992_e3ea9e62c854cabbd548b7bc7e00d476_a31a7e8aa4364b8298c290c0b9f60477_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/screenshot_175_a7a2a9ff3d3047ca9cc4568fa34efca7_1024x1024.png",
+  "image4": "https://product.hstatic.net/1000061481/product/screenshot_171_e097674e875848eb9a1204528d509b1a_1024x1024.png",
+  "image5": "https://product.hstatic.net/1000061481/product/screenshot_170_2f022213f82b493f8c4c521d148c7755_1024x1024.png",
+  "description": "Pack 3 đôi vớ bóng đá Nike Socks Dry Cushion Crew - White/Wolf Grey/Black là lựa chọn lý tưởng cho những ai yêu thích sự thoải mái và hiệu suất trên sân cỏ. Đế vải bông dày không chỉ mang lại cảm giác êm ái, mà còn giúp giảm chấn, bảo vệ đôi chân bạn trong suốt quá trình thi đấu. Công nghệ Dri-FIT tiên tiến đảm bảo khả năng thấm hút mồ hôi tối ưu, giữ cho bàn chân luôn khô ráo và thoải mái. Với sợi ma sát cao ở lòng bàn chân, đôi vớ này giúp giảm trượt, tạo sự tự tin trong từng bước di chuyển. Vải lưới ở phần trên của bàn chân giúp tăng cường khả năng thông thoáng, mang đến cảm giác mát mẻ và dễ chịu, giúp bạn tập trung hoàn toàn vào trận đấu."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b5f"
+  },
+  "id": 15,
+  "name": "Găng tay thủ môn Nike Goalkeeper Gloves Match Mad Brilliance - Black/Sunset Pulse FJ4862-014",
+  "brand": "Nike",
+  "type": "Găng tay thủ môn",
+  "date": "27/08/2024",
+  "price": 809000,
+  "image1": "https://product.hstatic.net/1000061481/product/b534a0c98b9c447095091e2ea5c206b5_2580e394a1ab4fe791b525fa164e0a66_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms01269_d82254fa03b943da8db4e653b7c9aaee_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms01270_49a2ae34a46348dc92b0f068654c77a6_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms01271_f719748d69af4d76816742ffb84a0150_1024x1024.jpg",
+  "description": "Găng tay thủ môn Nike Goalkeeper Gloves Match Mad Brilliance - Black/Sunset Pulse FJ4862-014 là sự lựa chọn hoàn hảo cho mọi thủ môn mong muốn thể hiện kỹ năng bắt bóng của mình. Với lớp đệm mềm bên trong lòng bàn tay, găng tay này giúp hấp thụ va chạm hiệu quả, mang lại sự tự tin trong từng pha cứu thua. Thiết kế bề mặt nhẵn giúp bạn dễ dàng cầm nắm bóng, bất kể điều kiện thời tiết ẩm ướt hay khô ráo. Phối lưới thoáng khí ở các vị trí chiến lược giúp giữ cho bàn tay luôn mát mẻ và khô ráo, tạo cảm giác thoải mái trong suốt trận đấu. Dây đeo cổ tay có thể điều chỉnh đảm bảo sự vừa vặn an toàn, giúp bạn yên tâm hơn khi thực hiện những pha cứu bóng quyết định. Găng tay này sẽ đồng hành cùng bạn để vượt qua mọi thử thách trên sân cỏ!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b60"
+  },
+  "id": 16,
+  "name": "Găng tay thủ môn Nike Goalkeeper Gloves Match Luminous - Black/Barely Volt/White",
+  "brand": "Nike",
+  "type": "Găng tay thủ môn",
+  "date": "11/01/2024",
+  "price": 790000,
+  "image1": "https://product.hstatic.net/1000061481/product/fd1fbfad73464be1b091c50495360c21_ba856880c2544ccc9dce2d52d87cd384_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms00173_9cfdfd3e5fe74472aeabebb41bdf7eff_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms00174_e1d977f67fa444568bb853c9845ccdda_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms00175_967f7325b10341d09af02e1a76d250ca_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms00176_3951643f67544983a000d635c5c0a99b_1024x1024.jpg",
+  "description": "Găng tay thủ môn Nike Goalkeeper Gloves Match Luminous - Black/Barely Volt/White là người bạn đồng hành đáng tin cậy cho các thủ môn trong mọi tình huống cứu thua. Với lớp đệm mềm mại bên trong lòng bàn tay, sản phẩm này giúp hấp thụ va chạm hiệu quả, mang lại sự tự tin cho bạn khi bắt bóng. Thiết kế bề mặt nhẵn giúp bạn dễ dàng cầm nắm bóng, ngay cả trong điều kiện ẩm ướt hay khô ráo. Phối lưới thoáng khí ở các vị trí chiến lược giúp giữ cho bàn tay luôn thoáng mát và khô ráo, mang lại cảm giác thoải mái suốt trận đấu. Dây đeo cổ tay có thể điều chỉnh đảm bảo sự vừa vặn an toàn, giúp bạn yên tâm hơn khi thực hiện những pha bóng quyết định. Với thiết kế nổi bật và tính năng ưu việt, găng tay này sẽ giúp bạn thể hiện phong độ xuất sắc trên sân cỏ!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b61"
+  },
+  "id": 17,
+  "name": "Găng Tay Thủ Môn Rinat Kratos Prime Black Turf",
+  "brand": "Rinat",
+  "type": "Găng tay thủ môn",
+  "date": "24/05/2024",
+  "price": 1550000,
+  "image1": "https://product.hstatic.net/200000601263/product/091321ca943c491eb47f2e40a73dd2ba_f8a9beb942e54d07bcba19de4b6bebbf_1024x1024.png",
+  "image2": "https://product.hstatic.net/200000601263/product/61tzno30pcl._ac_sl1500__41670e92b3b1460fb28823fde95df2b6_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/200000601263/product/71bicgzp8ll._ac_sl1500__8b5f236e2e1d4aafa9fb57a6053121d8_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/200000601263/product/71ujikua97l._ac_sl1500__3b0771f9a8e34cb1b2e6a48248ba6f67_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/200000601263/product/611xzdc6kyl._ac_sl1500__b7c5a7a015264df998d44a588150a7e3_1024x1024.jpg",
+  "description": "Găng tay thủ môn Rinat Kratos Prime Black Turf là sự lựa chọn hoàn hảo cho những thủ môn muốn kết hợp phong cách và hiệu suất trên sân cỏ. Với lớp đệm mềm mại bên trong lòng bàn tay, găng tay này giúp hấp thụ va chạm, bảo vệ bàn tay trong các pha cứu thua. Bề mặt nhẵn tạo điều kiện cho việc cầm nắm bóng chắc chắn, bất kể thời tiết ẩm ướt hay khô ráo. Phối lưới thoáng khí giữ cho bàn tay luôn mát mẻ và khô ráo, trong khi dây đeo cổ tay có thể điều chỉnh đảm bảo sự vừa vặn an toàn. Với thiết kế sắc sảo và tính năng vượt trội, găng tay này sẽ đồng hành cùng bạn trong mọi trận đấu."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b62"
+  },
+  "id": 18,
+  "name": "Găng Tay Thủ Môn Adidas Predator GL Pro HN3347",
+  "brand": "Adidas",
+  "type": "Găng tay thủ môn",
+  "date": "18/10/2024",
+  "price": 2500000,
+  "image1": "https://product.hstatic.net/200000601263/product/f99f8d52543f436e883f31735aeafa8e_d7d52ef02b40461481aa9174d0df9148_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/200000601263/product/60dbbdccbf5c492c9b3eb146158d3114_148bbc503f644093b06b73b29e8aa44d_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/200000601263/product/c7e4416356b648ceb6cd643ac327a853_632c2fb296564e5db8a5e2e7b3f261f5_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/200000601263/product/ea7498abc0644ae3be18fb6bffa9c446_0c9fb5c4c7ba48499421ff3fbc7bd5bf_1024x1024.jpg",
+  "description": "Găng tay thủ môn Adidas Predator GL Pro HN3347 mang đến sự kết hợp hoàn hảo giữa công nghệ hiện đại và phong cách thể thao, giúp bạn tự tin trong mọi tình huống trên sân. Với thiết kế kiểu ngón positive, găng tay này ôm khít và linh hoạt, tạo cảm giác thoải mái khi thực hiện các pha cứu thua. Lòng bàn tay được làm từ mút latex chất lượng cao, cung cấp độ bám dính tối ưu và khả năng hấp thụ va chấn hiệu quả. Phần mu bàn tay và cổ tay được gia cố bằng vải dệt kim, mang lại sự hỗ trợ và độ bền tối ưu. Găng tay còn được trang bị quai đeo có thể điều chỉnh, giúp bạn dễ dàng điều chỉnh độ vừa vặn. Với thiết kế sắc nét và tính năng vượt trội, Adidas Predator GL Pro là sự lựa chọn lý tưởng cho mọi thủ môn muốn nâng cao hiệu suất thi đấu."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b63"
+  },
+  "id": 19,
+  "name": "Găng Tay Thủ Môn Rinat Egotiko Vengador Alpha Pro Green",
+  "brand": "Rinat",
+  "type": "Găng tay thủ môn",
+  "date": "26/06/2024",
+  "price": 2100000,
+  "image1": "https://product.hstatic.net/200000601263/product/3da0d1527c4147cab3f4fd428f3bc20c_43363000e96546558a259669c7ae9617_1024x1024.png",
+  "image2": "https://product.hstatic.net/200000601263/product/61wmn1iiwml._ac_sl1500__283b506c44e944a1a76f6cda4792b2e2_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/200000601263/product/71e5kct4nul._ac_sl1500__28ffee5f585b4ca1b8d99f6f05e04b03_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/200000601263/product/71xvzr2jzcl._ac_sl1500__e8eb21f34fb2480896c219d6c4c81398_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/200000601263/product/7123z6kkvwl._ac_sl1500__cead9a260d1749998e6db7fad7995e6c_1024x1024.jpg",
+  "description": "Găng tay thủ môn Rinat Egotiko Vengador Alpha Pro Green là lựa chọn tuyệt vời cho những thủ môn muốn kết hợp giữa phong cách nổi bật và hiệu suất tối ưu trên sân cỏ. Với màu xanh lá tươi sáng, găng tay này không chỉ thu hút ánh nhìn mà còn mang đến sự tự tin trong mỗi pha cứu thua. Lòng bàn tay được làm từ mút latex cao cấp, giúp tạo độ bám dính tuyệt vời và khả năng hấp thụ va chấn hiệu quả, bảo vệ bàn tay trong các tình huống căng thẳng. Thiết kế ngón tay ôm sát kết hợp với cấu trúc chắc chắn giúp duy trì độ ổn định, ngăn ngừa tình trạng xô lệch khi đỡ bóng. Phối lưới thoáng khí ở các vị trí chiến lược giữ cho bàn tay luôn mát mẻ và khô ráo. Với tính năng ưu việt và thiết kế ấn tượng, găng tay Rinat Egotiko Vengador Alpha Pro là người bạn đồng hành đáng tin cậy cho mọi thủ môn trong những trận đấu quyết liệt."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b64"
+  },
+  "id": 20,
+  "name": "Găng Tay Thủ Môn Rinat Egotiko Vengador Turf Blue",
+  "brand": "Rinat",
+  "type": "Găng tay thủ môn",
+  "date": "30/06/2024",
+  "price": 1500000,
+  "image1": "https://product.hstatic.net/200000601263/product/ero-rinat-egotiko-vengador-turf-ad-azul-rojo-golero-sport-0-min-scaled_9859556c0690485fb7d053672fd6efd7_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/200000601263/product/ero-rinat-egotiko-vengador-turf-ad-azul-rojo-golero-sport-1-min-scaled_d6fde53c130049cb9d4a56e233fb63bf_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/200000601263/product/ero-rinat-egotiko-vengador-turf-ad-azul-rojo-golero-sport-2-min-scaled_8f7ea8c08b4749659e18c930648ffc80_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/200000601263/product/ero-rinat-egotiko-vengador-turf-ad-azul-rojo-golero-sport-3-min-scaled_df8c33503092489e922a67f5860d8d41_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/200000601263/product/ero-rinat-egotiko-vengador-turf-ad-azul-rojo-golero-sport-5-min-scaled_7087345d06c34e88ae5a0897c86a72d4_1024x1024.jpg",
+  "description": "Găng tay thủ môn Rinat Egotiko Vengador Turf Blue là lựa chọn hoàn hảo cho các thủ môn yêu thích sự kết hợp giữa phong cách và hiệu suất. Với màu xanh nổi bật, găng tay này không chỉ thu hút ánh nhìn mà còn mang đến sự tự tin trong mọi pha cứu thua. Lòng bàn tay được làm từ chất liệu latex cao cấp, giúp tăng cường độ bám dính và khả năng chống va chạm, trong khi thiết kế ngón tay ôm khít giúp duy trì sự chắc chắn khi đỡ bóng. Phần mu bàn tay có cấu trúc linh hoạt, cho phép bạn dễ dàng thực hiện các động tác nhanh nhẹn. Bên cạnh đó, găng tay còn được trang bị lớp vải mesh thoáng khí, giữ cho bàn tay luôn mát mẻ và khô ráo trong suốt trận đấu. Với những tính năng vượt trội, Rinat Egotiko Vengador Turf Blue sẽ đồng hành cùng bạn trong mọi thử thách trên sân cỏ."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b65"
+  },
+  "id": 21,
+  "name": "Găng Tay Thủ Môn One NXT Pro NGT",
+  "brand": "One",
+  "type": "Găng tay thủ môn",
+  "date": "20/06/2024",
+  "price": 1850000,
+  "image1": "https://product.hstatic.net/200000601263/product/7d4d300348c64c3b91139bb675000c02_2819ea15702b45cc8d88a7a39953341c_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/200000601263/product/a2fc96513b84414c87d4a06519e50247_5aff78c1db624543af9c21dd8dda4cfe_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/200000601263/product/nxt_pro_ngt_1_ba8c2bcd6ed34060904246cca1277a0c_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/200000601263/product/nxt_pro_ngt_2_f669300c38b44011b87a368ca4e1f00e_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/200000601263/product/nxt_pro_ngt_5_c5da1c8f92364596b4dca26f7d34ac78_1024x1024.jpg",
+  "description": "Găng tay thủ môn One NXT Pro NGT là sự lựa chọn hoàn hảo cho các thủ môn muốn thể hiện phong độ tối ưu trên sân cỏ. Với thiết kế hiện đại và kiểu ngón positive, găng tay này đảm bảo ôm khít và linh hoạt, giúp bạn dễ dàng thực hiện các pha cứu thua. Lòng bàn tay được làm từ chất liệu latex cao cấp, mang lại độ bám dính xuất sắc và khả năng hấp thụ va chấn tốt. Phần mu bàn tay được gia cố bằng vải thoáng khí, giúp tăng cường sự thông thoáng và giữ cho bàn tay luôn khô ráo. Quai đeo điều chỉnh giúp bạn dễ dàng điều chỉnh độ vừa vặn, đảm bảo găng tay luôn nằm chắc chắn trong suốt trận đấu. Với sự kết hợp giữa hiệu suất và phong cách, găng tay One NXT Pro NGT sẽ đồng hành cùng bạn để vượt qua mọi thử thách trên sân."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b66"
+  },
+  "id": 22,
+  "name": "Balo Neymarsport FOOTBALL Backpack 2024",
+  "brand": "NeymarSport",
+  "type": "Balo túi xách",
+  "date": "07/10/2024",
+  "price": 249000,
+  "image1": "https://product.hstatic.net/1000061481/product/nms03785_f8f19c2336cb4ef68c859d34c5a67056_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms03828-0_d71a25eb19184715b992f518dd0d9053_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms03832-1_780cbafb6f61400989b1dce2446e99cb_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms03836-0_f5585de6cb174e168b704c746ff05a47_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms03840-0_c02fac1517954689b1145583dd5c80ac_1024x1024.jpg",
+  "description": "Balo Neymarsport FOOTBALL Backpack 2024 là sự lựa chọn hoàn hảo cho những tín đồ yêu thích bóng đá và muốn thể hiện phong cách cá nhân. Được thiết kế tinh tế với màu sắc nổi bật, chiếc balo này không chỉ thu hút ánh nhìn mà còn mang lại sự tiện lợi trong việc lưu trữ đồ dùng. Ngăn chính rộng rãi có thể chứa đủ quần áo, giày và thiết bị thể thao, trong khi các ngăn phụ giúp bạn dễ dàng tổ chức và truy cập nhanh chóng các vật dụng nhỏ. Chất liệu bền bỉ và khả năng chống thấm nước đảm bảo rằng đồ dùng của bạn luôn được bảo vệ trong mọi điều kiện thời tiết. Đệm lưng êm ái và quai đeo điều chỉnh giúp bạn thoải mái mang balo trong suốt cả ngày. Với Balo Neymarsport FOOTBALL Backpack 2024, bạn sẽ luôn sẵn sàng cho những cuộc phiêu lưu trên sân cỏ và ngoài đời!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b67"
+  },
+  "id": 23,
+  "name": "Túi Gymsack NEYMARSPORT màu ngẫu nhiên",
+  "brand": "NeymarSport",
+  "type": "Balo túi xách",
+  "date": "17/05/2024",
+  "price": 50000,
+  "image1": "https://product.hstatic.net/1000061481/product/blac-01_5298678eac2742599cd956597d9e4c86_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/pink-01_c278f6ad93a54787845d9c1c28d6d518_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/red-01_7ba26ff71ce64d22a34d6828af10db27_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/yelo-01_e83ee8a13f4a4484930809486fd72903_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/blue-01_eb83e85f2315455eb34bfddc410e7a8b_1024x1024.jpg",
+  "description": "Túi Gymsack NEYMARSPORT màu ngẫu nhiên là phụ kiện lý tưởng cho những tín đồ thể thao và yêu thích sự năng động. Với thiết kế gọn nhẹ và tiện dụng, túi giúp bạn dễ dàng mang theo đồ dùng cá nhân, quần áo tập luyện hay dụng cụ thể thao. Chất liệu bền bỉ và khả năng chống thấm nước giúp bảo vệ đồ đạc bên trong khỏi các yếu tố bên ngoài. Dây rút chắc chắn cho phép bạn điều chỉnh kích thước túi, giúp đảm bảo an toàn cho vật dụng bên trong. Điểm nhấn của túi là logo NEYMARSPORT, thể hiện phong cách thể thao và cá tính mạnh mẽ. Với màu sắc ngẫu nhiên nổi bật, túi Gymsack không chỉ tiện lợi mà còn giúp bạn thể hiện phong cách riêng trong mỗi buổi tập luyện."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b68"
+  },
+  "id": 24,
+  "name": "Túi lưới đựng bóng NMS 2024",
+  "brand": "NeymarSport",
+  "type": "Balo túi xách",
+  "date": "01/04/2024",
+  "price": 119000,
+  "image1": "https://product.hstatic.net/1000061481/product/76efbbe736634ad4960c6047ec63fc87_66d0993665be49a789f8d8092a1c5805_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/db556f5ee4dd442e8d1bd7992721fdb8_ff207b48db9d494296dfa744016cf279_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/a6eab752df254609b07e3acc638fe115_aed1d947eea549a983a4ee91c8696b88_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms02824_02580314f37d47b19ed2ae7841f99f2c_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms02825_9928a1edfacc4c3bad14971885c10c0f_1024x1024.jpg",
+  "description": "Túi lưới đựng bóng NMS 2024 là giải pháp lý tưởng cho việc bảo quản và vận chuyển bóng đá một cách tiện lợi. Được làm từ chất liệu lưới bền bỉ, túi cho phép không khí lưu thông, giúp bóng luôn khô ráo và tránh ẩm mốc. Thiết kế rộng rãi có thể chứa từ 4 đến 6 quả bóng, rất phù hợp cho các buổi tập luyện hoặc thi đấu. Quai đeo có thể điều chỉnh giúp bạn dễ dàng mang theo túi, trong khi khóa kéo chắc chắn đảm bảo an toàn cho các quả bóng bên trong. Với màu sắc hiện đại và logo NMS nổi bật, túi lưới này không chỉ mang lại sự tiện lợi mà còn thể hiện phong cách thể thao của bạn."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b69"
+  },
+  "id": 25,
+  "name": "TÚI GYMSACK NIKE VENOM \"NEW LIGHTS\"",
+  "brand": "Nike",
+  "type": "Balo túi xách",
+  "date": "04/09/2024",
+  "price": 99000,
+  "image1": "https://product.hstatic.net/1000061481/product/te-fg-_____-__________-l0bqvc_e4e814ec8fbb470ab224dfaae5dfd76a_grande1_df421cb5ce3b426da2b13e7c5daee84d_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/img_4893_642becb56101439a9c6fac9833730aba_1024x1024.jpg",
+  "description": "Túi Gymsack Nike Venom \"New Lights\" là phụ kiện lý tưởng cho những ai yêu thích sự tiện dụng và phong cách thể thao. Với thiết kế nhẹ nhàng và thời trang, túi có không gian rộng rãi giúp bạn dễ dàng chứa đựng đồ dùng cá nhân, từ quần áo tập luyện đến giày thể thao. Chất liệu bền bỉ cùng với quai đeo chắc chắn giúp bạn mang theo mọi thứ một cách dễ dàng và thoải mái. Điểm nhấn nổi bật là họa tiết \"New Lights\", mang đến vẻ ngoài năng động và thu hút, phù hợp cho cả việc tập luyện và sử dụng hàng ngày. Túi Gymsack Nike Venom không chỉ giúp bạn tổ chức tốt hơn đồ đạc mà còn thể hiện phong cách thể thao cá tính của bạn!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b6a"
+  },
+  "id": 26,
+  "name": "Balo Mini Neymarsport 2024",
+  "brand": "NeymarSport",
+  "type": "Balo túi xách",
+  "date": "26/09/2024",
+  "price": 99000,
+  "image1": "https://product.hstatic.net/1000061481/product/17336d1ae2fd4fd395a1742f2799870d_567d237501c24fdcbb6cfd1650ec0b16_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/f212dbffb91740879b8c98f43688fca0_9214c7817fe64f55a6646aa8a93594bf_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/77fab7c2fc214242a9b2bd1760a53f38_12283964dfb24146b612991840d0566e_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/26fd07cf12ae4acdbdf94db65c5b3d24_030342a2c8e549be800e4d4976d94e15_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/e2f205f87e364c629065bbfe2d807cf9_d554a8257d024b25bb3f8848695ea86b_1024x1024.jpg",
+  "description": "Balo Mini Neymarsport 2024 là sự lựa chọn lý tưởng cho những ai yêu thích phong cách năng động và thể thao. Với thiết kế nhỏ gọn nhưng vẫn rất thời trang, chiếc balo này dễ dàng phù hợp với nhiều hoạt động, từ đi học, đi làm cho đến các buổi dã ngoại. Chất liệu bền bỉ và chống thấm nước giúp bảo vệ đồ dùng bên trong, trong khi các ngăn chứa rộng rãi cho phép bạn sắp xếp một cách ngăn nắp và tiện lợi. Logo Neymar đặc trưng cùng với màu sắc tươi sáng mang đến sự nổi bật, giúp bạn khẳng định cá tính của mình. Quai đeo có thể điều chỉnh giúp bạn dễ dàng điều chỉnh độ dài phù hợp, mang lại cảm giác thoải mái khi sử dụng. Với Balo Mini Neymarsport 2024, bạn không chỉ sở hữu một phụ kiện thời trang mà còn có một người bạn đồng hành đáng tin cậy trong mọi cuộc hành trình!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b6b"
+  },
+  "id": 27,
+  "name": "Túi Gymsack KAMITO TA11 Woncup",
+  "brand": "Kamito",
+  "type": "Balo túi xách",
+  "date": "06/04/2024",
+  "price": 50000,
+  "image1": "https://product.hstatic.net/1000061481/product/screenshot_154_ace5005bc70943198620b68a18ef2481_1024x1024.jpg",
+  "description": "Túi Gymsack KAMITO TA11 Woncup là phụ kiện hoàn hảo cho những ai yêu thích sự tiện lợi và phong cách trong việc vận chuyển đồ đạc. Với thiết kế tối giản nhưng hiện đại, túi được làm từ chất liệu bền bỉ, giúp bảo vệ đồ dùng bên trong khỏi các tác động bên ngoài. Kích thước vừa phải, túi có thể chứa được trang phục thể thao, giày dép và các vật dụng cần thiết khác, phù hợp cho những buổi tập luyện hay đi chơi. Quai xách và dây đeo vai có thể điều chỉnh giúp bạn dễ dàng mang theo mọi lúc mọi nơi. Màu sắc nổi bật cùng logo KAMITO tinh tế không chỉ tạo điểm nhấn cho túi mà còn thể hiện phong cách thể thao năng động. Với túi Gymsack KAMITO TA11 Woncup, bạn sẽ luôn sẵn sàng cho mọi hoạt động thể thao!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b6c"
+  },
+  "id": 28,
+  "name": "Balo xếp gọn NEYMARSPORT 2023",
+  "brand": "NeymarSport",
+  "type": "Balo túi xách",
+  "date": "23/05/2024",
+  "price": 120000,
+  "image1": "https://product.hstatic.net/1000061481/product/3256c263103a4ed0891cd8d2719e0128_6055e315481a4500bcb10ab068e305d8_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/4feaf5a54cda46f1a7c7daf55fe37d9c_e2412642c3a343349d712e87e7191849_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/8ad4da1144474943bb52df4ca68ce615_eed8c37ec81c48e3aa070894e5f27092_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/61dd597b69f74ba89a633f6059208075_aece3d8fb3334128b343ed1c17a72d3f_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/b9f681066011492d8c9fc0264f93649c_6eb49de3c4064396a787d4bdfd0cc14f_1024x1024.jpg",
+  "description": "Balo xếp gọn NEYMARSPORT 2023 là sự lựa chọn lý tưởng cho những ai yêu thích phong cách thể thao và tính tiện dụng. Với thiết kế gọn nhẹ và có thể xếp lại dễ dàng, balo này thích hợp cho cả việc di chuyển hàng ngày và các chuyến đi xa. Chất liệu bền bỉ giúp bảo vệ đồ dùng bên trong khỏi nước và bụi bẩn, trong khi ngăn chính rộng rãi có đủ không gian cho sách vở, thiết bị điện tử và đồ dùng cá nhân. Các ngăn phụ bên ngoài giúp bạn dễ dàng sắp xếp và truy cập nhanh các vật dụng cần thiết. Đặc biệt, với họa tiết nổi bật và logo NEYMARSPORT, sản phẩm không chỉ mang lại sự tiện lợi mà còn thể hiện phong cách cá nhân độc đáo của bạn. Với balo NEYMARSPORT 2023, bạn sẽ luôn sẵn sàng cho mọi hoạt động!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b6d"
+  },
+  "id": 29,
+  "name": "Bọc ống đồng Nike Shin Pads Mercurial Lite Mad Ambition - Blue Fury/Black DN3611-420",
+  "brand": "Nike",
+  "type": "Bọc ống đồng",
+  "date": "14/07/2024",
+  "price": 745000,
+  "image1": "https://product.hstatic.net/1000061481/product/5aa2feadc2c24de58349fe5d6f03ecf1_a3eaa93dcc6e47f99c9cb2f9b062a041_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms06314_0cb7be5b02c1443ebc77e5c8aafba237_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms06316_df109b566aed4677985d2236e92a7418_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms06317_9649bc09909941f48042da67e0afc8c4_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms06318_1ec37cbe80694f6db131310be0c7e1f5_1024x1024.jpg",
+  "description": "Bọc ống đồng Nike Shin Pads Mercurial Lite Mad Ambition - Blue Fury/Black DN3611-420 mang đến sự bảo vệ tối ưu và phong cách thể thao cho cầu thủ trong từng trận đấu. Với thiết kế nhẹ nhàng và ôm sát, bọc ống đồng này giúp giảm thiểu tác động từ va chạm mà không gây cản trở chuyển động. Chất liệu bền bỉ và dẻo dai đảm bảo độ bền lâu dài, trong khi lớp đệm mềm bên trong tạo cảm giác thoải mái, giữ cho bạn luôn tự tin khi thi đấu. Màu sắc Blue Fury/Black nổi bật không chỉ tạo điểm nhấn cho trang phục của bạn mà còn thể hiện phong cách năng động trên sân cỏ. Với Nike Shin Pads Mercurial Lite, bạn có thể hoàn toàn yên tâm và tập trung vào việc thể hiện kỹ năng chơi bóng của mình."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b6e"
+  },
+  "id": 30,
+  "name": "Bọc ống đồng Nike Shin Pads Mercurial Hard Shell Mad Ambition - Blue Fury/Black DN3614-420",
+  "brand": "Nike",
+  "type": "Bọc ống đồng",
+  "date": "14/06/2024",
+  "price": 700000,
+  "image1": "https://product.hstatic.net/1000061481/product/0d9865d695d04ae6b70d3cf501479ded_f7d1323858744d8c808b72d776862541_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms06308_5c6b5ff924f54d67b84d43bf8f676d04_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms06309_34d93cf75d914cd8bb0aa5b7501060d0_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms06310_84d19856c6474e21bfed501d7832bf14_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms06311_8c5b1096bf1c4467b96b6c4cf4651f05_1024x1024.jpg",
+  "description": "Bọc ống đồng Nike Shin Pads Mercurial Hard Shell Mad Ambition - Blue Fury/Black DN3614-420 được thiết kế để cung cấp sự bảo vệ tối ưu cho chân bạn trong suốt các trận đấu. Với lớp vỏ cứng bền bỉ, sản phẩm này giúp hấp thụ và phân tán lực tác động từ những cú va chạm, đảm bảo an toàn cho ống đồng của bạn. Màu sắc nổi bật Blue Fury kết hợp với chi tiết đen mang đến phong cách thể thao năng động và cuốn hút. Thiết kế vừa vặn với các dây đai điều chỉnh giúp bạn dễ dàng điều chỉnh độ ôm sát, tạo cảm giác thoải mái và ổn định. Với bọc ống đồng Mercurial, bạn có thể tự tin thể hiện kỹ năng và cống hiến hết mình trên sân cỏ mà không lo lắng về chấn thương."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b6f"
+  },
+  "id": 31,
+  "name": "Bọc ống đồng Adidas Tiro Club - Black/Gold IP3998",
+  "brand": "Adidas",
+  "type": "Bọc ống đồng",
+  "date": "21/06/2024",
+  "price": 410000,
+  "image1": "https://product.hstatic.net/1000061481/product/nms04093_5ce530b5b4064281aa85814229cc24a3_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04095_73e1cd7328ce4452bbc59eaa80dab218_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04096_f0c8b3cec2e04832b1aab30afa8a044e_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04102_562eeb30259d494cace66591c8d393e7_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04103_952916dc8786429684b8aa95a160dd2d_1024x1024.jpg",
+  "description": "Bọc ống đồng Adidas Tiro Club - Black/Gold IP3998 là phụ kiện hoàn hảo giúp bảo vệ chân bạn trong các trận đấu đầy cạnh tranh. Với thiết kế tối giản nhưng tinh tế, màu đen kết hợp với chi tiết vàng nổi bật không chỉ mang lại phong cách mà còn tạo sự tự tin cho người sử dụng. Chất liệu bọc ống đồng được làm từ vật liệu bền bỉ, giúp hấp thụ va đập và giảm thiểu chấn thương trong quá trình thi đấu. Công nghệ thông thoáng giúp lưu thông không khí, giữ cho đôi chân bạn luôn khô ráo và thoải mái. Thiết kế ôm sát cùng với dây đai chắc chắn giúp bọc ống đồng luôn nằm cố định, không bị xê dịch trong suốt trận đấu. Với Adidas Tiro Club, bạn có thể tập trung vào kỹ năng chơi bóng mà không phải lo lắng về sự an toàn của đôi chân."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b70"
+  },
+  "id": 32,
+  "name": "Bọc ống đồng Adidas Tiro Club - White/Black IP3995",
+  "brand": "Adidas",
+  "type": "Bọc ống đồng",
+  "date": "09/07/2024",
+  "price": 350000,
+  "image1": "https://product.hstatic.net/1000061481/product/1586c7b7fbb74a4cacbf07ec1b853268_7abd0093b37a48ebaa8afb14bff1b78d_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04097_549f79654c074c359b5054e819fe6133_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04098_584e160dee6d4b4eaa100d32ee7f4fc5_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04100_2bffb04ce17d4064855e3b3ad57b66a9_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04101_1d9c691cc1434cd38b67fcb2f50c7cd5_1024x1024.jpg",
+  "description": "Bọc ống đồng Adidas Tiro Club - White/Black IP3995 là phụ kiện lý tưởng cho các vận động viên bóng đá, mang đến sự bảo vệ và thoải mái tối đa trong mỗi trận đấu. Với thiết kế đơn giản nhưng tinh tế, màu trắng kết hợp với các chi tiết đen tạo nên vẻ ngoài nổi bật và phong cách. Chất liệu bọc ống đồng được làm từ vải bền bỉ, giúp hấp thụ va chạm hiệu quả và bảo vệ vùng ống đồng khỏi chấn thương. Đặc biệt, phần đệm êm ái giúp tăng cường cảm giác thoải mái, cho phép bạn di chuyển linh hoạt trên sân cỏ. Dây đeo co giãn ở phía trên giữ cho bọc ống đồng luôn ổn định và không bị trượt trong quá trình vận động. Với bọc ống đồng Adidas Tiro Club, bạn có thể hoàn toàn yên tâm tập trung vào trận đấu mà không lo lắng về sự an toàn của đôi chân."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b71"
+  },
+  "id": 33,
+  "name": "Bọc ống đồng Nike Shin Pads Mercurial Hard Shell Ready - Bright Crimson/Black",
+  "brand": "Nike",
+  "type": "Bọc ống đồng",
+  "date": "10/05/2024",
+  "price": 480000,
+  "image1": "https://product.hstatic.net/1000061481/product/f43a5ec685574bca82922d5703ebc9b1_9a59b22773e44e32b357b8a5ccd29a5b_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms02485_41ddc31194e147c0a79fb52392b73cb6_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms02486_b8f39a142fe94c9db53d6c1286d614ea_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms02488_3d7bc8894f9248148f2b718f05f6bdfb_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms02490_e1ca41499efc44388b910bc5d3328171_1024x1024.jpg",
+  "description": "Bọc ống đồng Nike Shin Pads Mercurial Hard Shell Ready - Bright Crimson/Black là lựa chọn lý tưởng để bảo vệ đôi chân của bạn trong những trận đấu căng thẳng. Với thiết kế vỏ cứng chắc chắn, sản phẩm này mang lại khả năng chống va đập tối ưu, giúp bạn yên tâm khi tham gia các pha bóng quyết liệt. Màu sắc Bright Crimson/Black nổi bật không chỉ tạo phong cách cá nhân mà còn thu hút ánh nhìn trên sân. Phần lót bên trong được làm từ chất liệu thoáng khí, mang lại cảm giác thoải mái và giảm thiểu mồ hôi, giữ cho bạn luôn khô ráo. Thiết kế ôm sát và dây đai điều chỉnh giúp bọc ống đồng giữ vững vị trí, đảm bảo không bị xê dịch trong suốt trận đấu. Với bọc ống đồng Nike Mercurial, bạn sẽ sẵn sàng đối mặt với mọi thử thách trên sân cỏ!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b72"
+  },
+  "id": 34,
+  "name": "Bọc ống đồng Nike Shin Pads Mercurial Lite Luminous - Pink Blast/Volt/Black",
+  "brand": "Nike",
+  "type": "Bọc ống đồng",
+  "date": "07/07/2024",
+  "price": 450000,
+  "image1": "https://product.hstatic.net/1000061481/product/nms00177_943d58875c8b4df0baa0c33d79b70a37_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms00178_dd0813177a0046b786e053f1a419d822_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms00179_85e970cebf234a278a7c3cd8de915726_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms00180_29ba99b07af24ef285247e24b67f25b5_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms00181_9b28ce4c4dec405296d3ac0a8b17e8b3_1024x1024.jpg",
+  "description": "Bọc ống đồng Nike Shin Pads Mercurial Lite Luminous - Pink Blast/Volt/Black là giải pháp hoàn hảo để bảo vệ chân bạn trong những trận đấu kịch tính. Với thiết kế siêu nhẹ và mỏng, sản phẩm này cung cấp sự thoải mái tối đa mà không làm giảm khả năng di chuyển. Bọc ống đồng được trang bị công nghệ hấp thụ va chấn, giúp giảm thiểu tác động từ những cú sút mạnh hay va chạm với đối thủ. Màu sắc nổi bật với sự kết hợp giữa hồng chói, vàng volt và đen không chỉ mang đến vẻ ngoài cá tính mà còn giúp bạn nổi bật trên sân cỏ. Đường viền mềm mại và dải đai co giãn đảm bảo bọc ống đồng luôn vừa vặn và an toàn, cho phép bạn tập trung hoàn toàn vào trận đấu mà không lo lắng về sự khó chịu hay xê dịch. Với Nike Mercurial Lite, bạn sẽ luôn tự tin thể hiện kỹ năng chơi bóng của mình."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b73"
+  },
+  "id": 35,
+  "name": "Bọc ống đồng Adidas Everlesto Shin Guards Black / White / Solar Red",
+  "brand": "Adidas",
+  "type": "Bọc ống đồng",
+  "date": "17/08/2024",
+  "price": 320000,
+  "image1": "https://product.hstatic.net/1000061481/product/nms06919_229766d651ea47f6b7d2949060e0ff31_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms06920_4e7d96fc32b5432a9d3c6cc61422b06d_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms06922_e654aeb9f7874ff1b58a52c5f5f8d60f_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms06923_91fa6482918149cbb5fc8dbd89ec05f9_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms06924_2850a976ba93430299d6d59c25725eb5_1024x1024.jpg",
+  "description": "Bọc ống đồng Adidas Everlesto Shin Guards Black / White / Solar Red mang đến sự bảo vệ tối ưu cho đôi chân của bạn trong mọi trận đấu. Với thiết kế hiện đại và màu sắc nổi bật, sản phẩm này không chỉ đảm bảo an toàn mà còn giúp bạn thể hiện phong cách riêng trên sân cỏ. Phần vỏ ngoài được làm từ chất liệu bền bỉ, chịu lực tốt, giúp hấp thụ và phân tán lực va chạm hiệu quả, trong khi lớp đệm bên trong mang lại cảm giác thoải mái và dễ chịu. Thiết kế ôm sát chân với dây đeo điều chỉnh linh hoạt đảm bảo bọc ống đồng luôn vừa vặn và ổn định trong suốt quá trình thi đấu. Với Adidas Everlesto, bạn có thể yên tâm tập trung vào trận đấu mà không lo lắng về chấn thương, giúp bạn chơi hết mình và tỏa sáng trên sân cỏ."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b74"
+  },
+  "id": 36,
+  "name": "Áo bóng đá chính hãng Manchester United Sân Nhà 2024/25 ",
+  "brand": "Adidas",
+  "type": "Áo quần bóng đá",
+  "date": "25/09/2024",
+  "price": 1950000,
+  "image1": "https://product.hstatic.net/1000061481/product/ff0119ea5b814468b32e4540c027c552_287aeadcf7734657b55951e969144118_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm1_a766dfb3bc90485abaeeb665c499e59c_1024x1024.jpeg",
+  "image3": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm5_e98c3c287cae49fd9a5124225965338b_1024x1024.jpeg",
+  "image4": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm4_072f598146e2448788948ffef0f7109b_1024x1024.jpeg",
+  "image5": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm6_e599949a17d24949a25aedb08d795163_1024x1024.jpeg",
+  "description": "Áo bóng đá chính hãng Manchester United Sân Nhà 2024/25 là biểu tượng của niềm tự hào và tinh thần chiến đấu của câu lạc bộ huyền thoại. Với thiết kế hiện đại và sắc đỏ đặc trưng, áo mang lại cảm giác thoải mái và phong cách cho người mặc. Chất liệu cao cấp giúp thấm hút mồ hôi hiệu quả, giữ cho bạn luôn khô ráo trong suốt trận đấu hoặc khi cổ vũ cho đội bóng. Logo câu lạc bộ và các chi tiết tinh tế được thêu nổi, thể hiện sự tỉ mỉ và chất lượng của sản phẩm. Với chiếc áo này, bạn không chỉ thể hiện tình yêu với Manchester United mà còn cảm nhận được sự mạnh mẽ và tinh thần đoàn kết của đội bóng. Hãy khoác lên mình áo Manchester United Sân Nhà 2024/25 để trở thành một phần của lịch sử và những khoảnh khắc đáng nhớ trên sân cỏ!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b75"
+  },
+  "id": 37,
+  "name": "Áo bóng đá chính hãng Real Madrid Sân Nhà 2024/25",
+  "brand": "Adidas",
+  "type": "Áo quần bóng đá",
+  "date": "07/10/2024",
+  "price": 1950000,
+  "image1": "https://product.hstatic.net/1000061481/product/c6b06feb89854621bea4f54279057437_e680a04d2a04480d946c73073f8d6858_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_real_madrid_24-25_trang_iu5011_hm1_bbd3345dd9fe4fbb80c2b094770f30a0_1024x1024.jpeg",
+  "image3": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_real_madrid_24-25_trang_iu5011_hm3_hover_bddd60af10fc43888cbf0e88bc8e6391_1024x1024.jpeg",
+  "image4": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_real_madrid_24-25_trang_iu5011_hm4_da63542246094f92a5c2e3cb5e4b46a6_1024x1024.jpeg",
+  "image5": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_real_madrid_24-25_trang_iu5011_hm6_e3c0f16ff8f841db8992535a655ae891_1024x1024.jpeg",
+  "description": "Áo bóng đá chính hãng Real Madrid Sân Nhà 2024/25 là biểu tượng của niềm tự hào và tinh thần thể thao của câu lạc bộ huyền thoại. Được thiết kế với màu sắc trắng truyền thống, áo mang đến vẻ ngoài thanh lịch và mạnh mẽ, cùng với các chi tiết tinh tế như logo CLB và nhà tài trợ được thêu nổi bật. Chất liệu vải cao cấp, nhẹ và thoáng khí giúp người mặc luôn cảm thấy thoải mái trong mọi tình huống, từ trên sân cỏ cho đến cuộc sống hàng ngày. Công nghệ thấm hút mồ hôi tiên tiến đảm bảo bạn luôn khô ráo và dễ chịu, ngay cả trong những trận đấu căng thẳng. Với áo bóng đá Real Madrid Sân Nhà 2024/25, bạn không chỉ thể hiện tình yêu với đội bóng mà còn có thể tự tin tỏa sáng mọi lúc mọi nơi."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b76"
+  },
+  "id": 38,
+  "name": "Áo bóng đá chính hãng Nike Paris Saint-Germain sân khách 2024/25",
+  "brand": "Nike",
+  "type": "Áo quần bóng đá",
+  "date": "26/05/2024",
+  "price": 1990000,
+  "image1": "https://product.hstatic.net/1000061481/product/dbbd2a87c4ba4e189b9670ba97f854b8_53f4965f4af3437baa5cce2f6393fdcc_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/psg_m_nk_df_jsy_ss_stad_aw_408c245882774399aa575322f793d7b9_1024x1024.png",
+  "image3": "https://product.hstatic.net/1000061481/product/psg_m_nk_df_jsy_ss_stad_aw__1__2dc195795bfc48d78d004040d444237c_1024x1024.png",
+  "image4": "https://product.hstatic.net/1000061481/product/psg_m_nk_df_jsy_ss_stad_aw__2__3514a0905aff4fa884dbe5224111f435_1024x1024.png",
+  "image5": "https://product.hstatic.net/1000061481/product/psg_m_nk_df_jsy_ss_stad_aw__1__bb9ac90e78324939b3fc17b19d18f4b3_1024x1024.jpg",
+  "description": "Áo bóng đá chính hãng Nike Paris Saint-Germain sân khách 2024/25 là biểu tượng của sự tinh tế và phong cách, hoàn hảo cho những người hâm mộ cuồng nhiệt của đội bóng. Với thiết kế hiện đại và sắc màu nổi bật, áo mang đến vẻ đẹp thu hút ánh nhìn ngay từ lần đầu tiên. Chất liệu vải cao cấp giúp thấm hút mồ hôi hiệu quả, giữ cho cơ thể bạn luôn khô ráo và thoải mái trong suốt trận đấu. Các chi tiết như logo PSG và biểu tượng Nike được thêu tinh xảo, thể hiện sự tự hào về đội bóng mà bạn yêu thích. Với cổ áo truyền thống và kiểu dáng thể thao, áo không chỉ phù hợp cho các trận đấu mà còn là lựa chọn hoàn hảo cho các hoạt động hàng ngày. Hãy thể hiện tình yêu của bạn với Paris Saint-Germain cùng áo bóng đá này và sẵn sàng cổ vũ cho đội nhà!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b77"
+  },
+  "id": 39,
+  "name": "Áo bóng đá chính hãng Arsenal sân nhà 2023/24",
+  "brand": "Adidas",
+  "type": "Áo quần bóng đá",
+  "date": "05/09/2024",
+  "price": 1750000,
+  "image1": "https://product.hstatic.net/1000061481/product/f7d25c3ba4e2435cbb0cea04de9a6af5_7d78e07ac6714a729fc8eaa1d4ad0978_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms09889_9ebb3fe774c34c488a6f728fc65da952_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms09890_64d839d8d8c9450fbeed85092d93a396_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms09891_db2629c1abf2401294b06ac15707d083_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms09892_869df55945a04ab2a2759f96f28b954c_1024x1024.jpg",
+  "description": "Áo bóng đá chính hãng Arsenal sân nhà 2023/24 mang đến thiết kế đầy ấn tượng và phong cách, thể hiện niềm tự hào của câu lạc bộ Arsenal. Với màu đỏ truyền thống, áo được làm từ chất liệu vải cao cấp, thoáng khí, giúp giữ cho bạn luôn mát mẻ và thoải mái trong suốt trận đấu. Họa tiết tinh tế và logo câu lạc bộ nổi bật ở ngực trái không chỉ tạo điểm nhấn mà còn khẳng định đẳng cấp của người mặc. Thiết kế cổ tròn và phần tay áo ôm sát mang lại sự linh hoạt và thoải mái, lý tưởng cho những pha chạy nhảy trên sân cỏ. Áo bóng đá Arsenal sân nhà 2023/24 không chỉ là trang phục thi đấu, mà còn là biểu tượng của tình yêu dành cho đội bóng, giúp bạn thể hiện niềm đam mê với Pháo thủ trong mọi khoảnh khắc."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b78"
+  },
+  "id": 40,
+  "name": "Áo bóng đá chính hãng Arsenal sân khách 2024/25",
+  "brand": "Adidas",
+  "type": "Áo quần bóng đá",
+  "date": "30/01/2024",
+  "price": 1950000,
+  "image1": "https://product.hstatic.net/1000061481/product/2489be82190c440fa524daf653765ea2_e58198b123514b6e869827fbce0b8e6c_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/ao_djau_san_khach_arsenal_24-25_djen_it6148_hm1_0443a7c4969b49f994d8f538a12a5982_1024x1024.jpeg",
+  "image3": "https://product.hstatic.net/1000061481/product/ao_djau_san_khach_arsenal_24-25_djen_it6148_hm3_hover_c930b336fee745b1a3e49f2751ea9a81_1024x1024.jpeg",
+  "image4": "https://product.hstatic.net/1000061481/product/ao_djau_san_khach_arsenal_24-25_djen_it6148_hm5_45ad62c51e8243099f833a7994326183_1024x1024.jpeg",
+  "image5": "https://product.hstatic.net/1000061481/product/ao_djau_san_khach_arsenal_24-25_djen_it6148_hm6_012e14a5fa8345f6ab78d0094744a228_1024x1024.jpeg",
+  "description": "Áo bóng đá chính hãng Arsenal sân khách 2024/25 mang đến sự kết hợp hoàn hảo giữa thiết kế hiện đại và phong cách thể thao, thể hiện tinh thần của Pháo thủ London. Với màu sắc chủ đạo tươi mới và các chi tiết tinh tế, áo không chỉ nổi bật trên sân cỏ mà còn phù hợp cho các hoạt động hàng ngày. Chất liệu vải cao cấp với công nghệ thấm hút mồ hôi giúp bạn luôn cảm thấy thoải mái và khô ráo trong suốt trận đấu. Thiết kế ôm sát cơ thể tạo sự vừa vặn tối ưu, giúp bạn dễ dàng vận động. Logo câu lạc bộ được thêu tinh xảo trên ngực trái, khẳng định niềm tự hào của người hâm mộ. Áo bóng đá Arsenal sân khách 2024/25 là món đồ không thể thiếu cho bất kỳ fan hâm mộ nào muốn thể hiện tình yêu với đội bóng."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b79"
+  },
+  "id": 41,
+  "name": "Áo bóng đá chính hãng Manchester United Sân Nhà 2024/25 \"Bản Thi Đấu Authentic\"",
+  "brand": "Adidas",
+  "type": "Áo quần bóng đá",
+  "date": "30/05/2024",
+  "price": 2500000,
+  "image1": "https://product.hstatic.net/1000061481/product/ff0119ea5b814468b32e4540c027c552_287aeadcf7734657b55951e969144118_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm1_a766dfb3bc90485abaeeb665c499e59c_1024x1024.jpeg",
+  "image3": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm5_e98c3c287cae49fd9a5124225965338b_1024x1024.jpeg",
+  "image4": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm4_072f598146e2448788948ffef0f7109b_1024x1024.jpeg",
+  "image5": "https://product.hstatic.net/1000061481/product/ao_djau_san_nha_authentic_manchester_united_24-25_djo_jf1291_hm6_e599949a17d24949a25aedb08d795163_1024x1024.jpeg",
+  "description": "Áo bóng đá chính hãng Manchester United Sân Nhà 2024/25 \"Bản Thi Đấu Authentic\" là sản phẩm hoàn hảo dành cho những người hâm mộ yêu thích Quỷ Đỏ. Được thiết kế với chất liệu cao cấp, áo mang lại cảm giác thoải mái và thoáng mát, giúp bạn dễ dàng vận động trong suốt trận đấu. Với màu sắc đặc trưng đỏ tươi cùng họa tiết hiện đại, áo không chỉ nổi bật mà còn thể hiện tinh thần mạnh mẽ của đội bóng. Biểu tượng câu lạc bộ được thêu tinh xảo ở ngực trái cùng các chi tiết và công nghệ tiên tiến giúp áo trở nên bền bỉ hơn. \"Bản Thi Đấu Authentic\" không chỉ là trang phục của các cầu thủ trên sân, mà còn là cách để bạn thể hiện niềm tự hào khi cổ vũ cho Manchester United. Hãy mặc áo này và hòa mình vào không khí cuồng nhiệt của những trận cầu đỉnh cao!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b7a"
+  },
+  "id": 42,
+  "name": "Áo bóng đá chính hãng Tottenham Hotspur sân nhà 2024/25",
+  "brand": "Nike",
+  "type": "Áo quần bóng đá",
+  "date": "13/05/2024",
+  "price": 1990000,
+  "image1": "https://product.hstatic.net/1000061481/product/2991268d82be4271b87cf1256b863616_bdce0c98e52a4dfe9b62443363fe896a_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms01925_587ca627581c40f38ceb5d8f85b94f7f_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms01926_521b31e571684f858112d65bf3a7b497_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms01927_0c7dfd98539644058ae2cb5bc0c3195d_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms01929_6ec195196a9d4562aa2214e34cd595ee_1024x1024.jpg",
+  "description": "Áo bóng đá chính hãng Tottenham Hotspur sân nhà 2024/25 là món đồ không thể thiếu dành cho những người hâm mộ trung thành của câu lạc bộ. Với thiết kế tinh tế, áo mang màu sắc truyền thống của Spurs, kết hợp với logo câu lạc bộ được thêu tỉ mỉ, tạo nên vẻ ngoài đầy phong cách và đẳng cấp. Chất liệu vải cao cấp, mềm mại và thoáng khí giúp bạn luôn cảm thấy thoải mái, dù là khi xem trận đấu hay tham gia hoạt động thể thao. Công nghệ thấm hút mồ hôi hiệu quả giúp giữ cho cơ thể luôn khô ráo, ngay cả trong những buổi tập luyện căng thẳng. Đường may chắc chắn và kiểu dáng thể thao tạo sự vừa vặn hoàn hảo, làm nổi bật phong cách năng động của người mặc. Áo bóng đá Tottenham Hotspur sân nhà 2024/25 chắc chắn sẽ là sự lựa chọn lý tưởng cho mọi fan hâm mộ muốn thể hiện niềm tự hào và tình yêu với đội bóng."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b7b"
+  },
+  "id": 43,
+  "name": "Bó gối Yasu 9704 màu đen",
+  "brand": "Yasu",
+  "type": "Bó gối",
+  "date": "09/04/2024",
+  "price": 120000,
+  "image1": "https://product.hstatic.net/1000061481/product/889eee0b97264371a852e9b2b63adb34_b9a6db0b2a4946399e49e54e48988940_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms04038_959c8a9493034e089b6bd833580f073f_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms04039_7f82553304974cd2af5cd1901cf314d9_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms04040_c937ae07527e43d4a70e9d27cdeaebe5_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms04041_847c8e04ceae426abf947667908a5473_1024x1024.jpg",
+  "description": "Bó gối Yasu 9704 màu đen là sự lựa chọn hoàn hảo cho những ai tìm kiếm sự hỗ trợ và bảo vệ cho khớp gối trong quá trình tập luyện hoặc thi đấu thể thao. Với thiết kế ôm sát và chất liệu co giãn, bó gối này cung cấp sự vừa vặn thoải mái, giúp giảm áp lực lên khớp gối và hạn chế nguy cơ chấn thương. Được làm từ chất liệu cao cấp, Yasu 9704 có khả năng thấm hút mồ hôi tốt, giữ cho vùng gối luôn khô ráo trong suốt quá trình vận động. Màu đen trang nhã và dễ phối đồ, bó gối không chỉ mang lại hiệu suất tối ưu mà còn tạo phong cách thể thao cho người sử dụng. Đây là một phụ kiện không thể thiếu cho các vận động viên và những người yêu thích thể thao."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b7c"
+  },
+  "id": 44,
+  "name": "LƯỚI ĐỰNG BÓNG SỢI DÙ ĐAN 2MM",
+  "brand": "NeymarSport",
+  "type": "Lưới đựng bóng",
+  "date": "15/07/2024",
+  "price": 20000,
+  "image1": "https://product.hstatic.net/1000061481/product/111111--02-02-02_7e16c9e026644a8186142329917f0e63_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/_mg_1282-2_fd16f6d40ee54994af838a23de07d61a_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/_mg_1284-2_06acd45d5d554273a9d9e6ed2dfbc2bf_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/_mg_1285-2_39e8b44e5c7042c9b46de24e1e7e9b64_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/_mg_2147_c6c00ed5b3004cfe8266f38512fdd210_1024x1024.jpg",
+  "description": "Lưới đựng bóng sợi dù đan 2mm là sản phẩm lý tưởng để bảo quản và vận chuyển bóng một cách dễ dàng và an toàn. Được làm từ chất liệu sợi dù chắc chắn, lưới có khả năng chống lại sự mài mòn và thời tiết khắc nghiệt, đảm bảo độ bền lâu dài. Thiết kế đan 2mm giúp lưới chắc chắn, giữ cho các quả bóng không bị rơi ra ngoài, đồng thời dễ dàng thông thoáng để không gây ẩm mốc cho bóng. Với kích thước gọn nhẹ và khả năng dễ dàng cuộn lại, lưới này rất thuận tiện cho việc mang theo trong các buổi tập luyện hay thi đấu. Lưới đựng bóng sợi dù đan 2mm là lựa chọn hoàn hảo cho các vận động viên và đội thể thao muốn giữ cho bóng của mình luôn trong tình trạng tốt nhất."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b7d"
+  },
+  "id": 45,
+  "name": "BĂNG KEO CƠ THỂ THAO",
+  "brand": "NeymarSport",
+  "type": "Băng keo cơ",
+  "date": "06/07/2024",
+  "price": 20000,
+  "image1": "https://product.hstatic.net/1000061481/product/g-the-thao-1492660905-6890935-234dc22226ea1b031e894df7abd48924-product_c1eacdd34e794e1daa91738c541d89ca_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/img_6041_532fa76e9a7549698696637bc360c2e6_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/img_6031_1abdfe9160a94b67804ce15f1bae5cbc_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/img_6034_01bc0be25f9f4aa79821fe04e9592f8e_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/img_6033_b8f9a0dd73b4417790935d8191e76a9f_1024x1024.jpg",
+  "description": "Băng keo cơ thể thể thao là sản phẩm thiết yếu cho các vận động viên và người yêu thể thao, giúp hỗ trợ và bảo vệ cơ bắp, khớp và các vùng tổn thương trong quá trình tập luyện hoặc thi đấu. Được làm từ chất liệu co giãn, băng keo này có khả năng bám dính tốt, mang lại sự thoải mái và linh hoạt cho người sử dụng. Thiết kế nhẹ nhàng và dễ dàng áp dụng, băng keo cơ thể thể thao không chỉ giúp giảm đau, giảm sưng tấy mà còn hỗ trợ quá trình hồi phục nhanh chóng. Ngoài ra, sản phẩm còn giúp ổn định cơ và khớp, giảm thiểu nguy cơ chấn thương và cải thiện hiệu suất vận động. Với nhiều màu sắc và độ dài khác nhau, băng keo cơ thể thể thao là lựa chọn hoàn hảo cho mọi vận động viên, từ người mới bắt đầu cho đến những chuyên gia."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b7e"
+  },
+  "id": 46,
+  "name": "Xịt khử mùi giày NEYMARSPORT 75ml",
+  "brand": "NeymarSport",
+  "type": "Xịt khử mùi giày",
+  "date": "16/08/2024",
+  "price": 50000,
+  "image1": "https://product.hstatic.net/1000061481/product/nms09181_0ca931ec71db48f2bbcce567af0c1beb_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/nms09176-2_3873649466384b72a4e6b09aa1c927db_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/nms09178-2_1e2ee8e871a2408f91e61124f2f6f9c7_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/nms09179-2_fd6c465e6ae1473dbb2bda0f9a9d2ada_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/nms09180-2_70bc90a122454bcaa9844fff80972466_1024x1024.jpg",
+  "description": "Xịt khử mùi giày NEYMARSPORT 75ml là giải pháp hoàn hảo để giữ cho giày của bạn luôn thơm tho và sạch sẽ. Với công thức độc quyền, sản phẩm giúp loại bỏ mùi hôi khó chịu, mang lại cảm giác dễ chịu và tươi mát mỗi khi bạn đi giày. Dễ dàng sử dụng, chỉ cần xịt một lượng vừa đủ vào bên trong giày và để khô, bạn sẽ cảm nhận ngay sự khác biệt. Chất lượng cao và thiết kế nhỏ gọn, xịt khử mùi NEYMARSPORT rất thuận tiện để mang theo bên mình, lý tưởng cho những ai thường xuyên vận động hoặc chơi thể thao. Hãy để đôi giày của bạn luôn trong tình trạng tốt nhất với xịt khử mùi NEYMARSPORT!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b7f"
+  },
+  "id": 47,
+  "name": "Quần bó cơ 1/2 Actee Maxfit",
+  "brand": "Akpro",
+  "type": "Quần bó cơ",
+  "date": "24/06/2024",
+  "price": 229000,
+  "image1": "https://product.hstatic.net/1000061481/product/0ebfd867b3a14a17a46a2f89ac835ac8_c64ee2b20613436d9f55eac4d3b9a3d5_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/bang_tinh_size_quan_bo_co_actee-02_978a388fb63c4cbf88d8edbaaea4a90e_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/screenshot_8_8a0323d91d944f45ae2a53e8f3df7241_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/screenshot_10_23666f0da4d34fca8d104f427a4f2447_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/screenshot_9_7a8a835ad29342b59ef345d2273d2b76_1024x1024.jpg",
+  "description": "Quần bó cơ 1/2 Actee Maxfit là trang phục lý tưởng cho những ai yêu thích thể thao và muốn nâng cao hiệu suất tập luyện. Với thiết kế ôm sát cơ thể, sản phẩm giúp giảm thiểu sự cản trở trong chuyển động, tạo cảm giác thoải mái và linh hoạt trong mọi bài tập. Chất liệu vải cao cấp có khả năng thấm hút mồ hôi hiệu quả, giữ cho cơ thể luôn khô ráo và dễ chịu trong suốt quá trình vận động. Đường may chắc chắn và tinh tế giúp tăng cường độ bền, trong khi các chi tiết phản quang nâng cao tính an toàn khi tập luyện vào buổi tối. Quần bó cơ Actee Maxfit không chỉ mang lại sự hỗ trợ cho cơ bắp mà còn giúp bạn thể hiện phong cách năng động và hiện đại trong mỗi buổi tập."
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b80"
+  },
+  "id": 48,
+  "name": "Lót giày bóng đá chính hãng NMS PRO INSOLES",
+  "brand": "NeymarSport",
+  "type": "Lót giày bóng đá",
+  "date": "08/04/2024",
+  "price": 191000,
+  "image1": "https://product.hstatic.net/1000061481/product/ea847e1b1af9c4a79de8_cba982c1b5da4acf9b467b1501103e44_1024x1024.jpg",
+  "image2": "https://product.hstatic.net/1000061481/product/d5caeec810ff40789eb0463ad67ede4d_e928e93fa0d74c2b91921ce76f39838e_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/3cf8a567c1851fdb4694_ae13abee04764ebc899c60cb4f41804f_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/5ae9c476a0947eca2785_5f7d5618d30949c1bcc38a15389bcf29_1024x1024.jpg",
+  "image5": "https://product.hstatic.net/1000061481/product/48b84b1c2ffef1a0a8ef_105b4abf05e244158f43c9c9f30af4be_1024x1024.jpg",
+  "description": "Lót giày bóng đá chính hãng NMS PRO INSOLES là giải pháp lý tưởng để nâng cao hiệu suất thi đấu của bạn. Được thiết kế đặc biệt để hỗ trợ và tối ưu hóa sự thoải mái trong từng bước di chuyển, sản phẩm này sử dụng công nghệ tiên tiến giúp phân tán áp lực, giảm chấn và bảo vệ bàn chân khỏi các chấn thương. Chất liệu nhẹ và thoáng khí giúp giữ cho chân bạn luôn khô ráo và dễ chịu trong suốt trận đấu. Với độ bám dính tuyệt vời và khả năng định hình linh hoạt, NMS PRO INSOLES giúp bạn duy trì sự ổn định và tự tin trong các pha di chuyển nhanh nhẹn trên sân cỏ. Hãy trang bị cho đôi giày của bạn lót giày NMS PRO INSOLES để trải nghiệm sự khác biệt trong từng trận đấu!"
+},
+{
+  "_id": {
+    "$oid": "673b0db65fd87d2714ce9b81"
+  },
+  "id": 49,
+  "name": "Chai xịt lạnh giảm đau LIGPRO 200ml",
+  "brand": "Ligpro",
+  "type": "Chai xịt lạnh",
+  "date": "25/02/2024",
+  "price": 135000,
+  "image1": "https://product.hstatic.net/1000061481/product/d894087ab2f54005b497df7f9fe36192_86ec497f41e944f3a321b5f84479341b_1024x1024.jpeg",
+  "image2": "https://product.hstatic.net/1000061481/product/_mg_8629_8b6af3e3d51b432fa2a572af819eb224_1024x1024.jpg",
+  "image3": "https://product.hstatic.net/1000061481/product/_mg_8630_e38d02e7246a493bb3daab780fac65f4_1024x1024.jpg",
+  "image4": "https://product.hstatic.net/1000061481/product/_mg_8631_27ea05cd63a54bee86be7691664887f9_1024x1024.jpg",
+  "description": "Chai xịt lạnh giảm đau LIGPRO 200ml là sản phẩm lý tưởng để giúp bạn nhanh chóng giảm thiểu cảm giác đau nhức và khó chịu sau khi tập luyện hoặc chấn thương. Với công thức đặc biệt, sản phẩm mang đến cảm giác mát lạnh tức thì, giúp làm dịu cơn đau và giảm viêm hiệu quả. Chai xịt dễ sử dụng, cho phép bạn xịt trực tiếp lên vùng bị đau, giúp thẩm thấu nhanh vào da mà không để lại cảm giác nhờn dính. Thiết kế nhỏ gọn, tiện lợi giúp bạn dễ dàng mang theo và sử dụng ở bất kỳ đâu. Sản phẩm là lựa chọn hoàn hảo cho vận động viên, người tập thể dục và bất kỳ ai cần giảm đau nhanh chóng và hiệu quả."
+}]

@@ -1,0 +1,91 @@
+<div class="checkout-container">
+    <div class="left-section">
+        <h2>Thông tin giao hàng</h2>
+        <form #checkoutForm="ngForm" novalidate>
+            <!-- Thông tin giao hàng -->
+            <div class="form-group">
+                <label for="customerName">Họ và tên</label>
+                <input type="text" id="customerName" placeholder="Họ và tên" [(ngModel)]="customerName"
+                    name="customerName" required #customerNameModel="ngModel" class="form-control" />
+                <div *ngIf="customerNameModel.invalid && customerNameModel.touched" class="error">
+                    Vui lòng nhập họ và tên.
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" [(ngModel)]="email" name="email" disabled
+                    class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Số điện thoại</label>
+                <input type="tel" id="phone" placeholder="Số điện thoại" [(ngModel)]="phone" name="phone" required
+                    #phoneModel="ngModel" pattern="^[0-9]{10}$" class="form-control" />
+                <div *ngIf="phoneModel.invalid && phoneModel.touched" class="error">
+                    Vui lòng nhập số điện thoại hợp lệ (10 chữ số).
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Địa chỉ</label>
+                <input type="text" id="address" placeholder="Địa chỉ" [(ngModel)]="address" name="address" required
+                    #addressModel="ngModel" class="form-control" />
+                <div *ngIf="addressModel.invalid && addressModel.touched" class="error">
+                    Vui lòng nhập địa chỉ.
+                </div>
+            </div>
+
+            <!-- Phương thức thanh toán -->
+            <h3>Phương thức thanh toán</h3>
+            <div class="payment-methods">
+                <label>
+                    <input type="radio" name="paymentMethod" [(ngModel)]="paymentMethod" value="COD" /> Thanh toán khi
+                    nhận hàng (COD)
+                </label>
+                <label>
+                    <input type="radio" name="paymentMethod" [(ngModel)]="paymentMethod" value="MoMo" /> Thanh toán qua
+                    ví điện tử MoMo
+                </label>
+                <label>
+                    <input type="radio" name="paymentMethod" [(ngModel)]="paymentMethod" value="Bank" /> Chuyển khoản
+                    ngân hàng
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <div class="right-section">
+        <h3>Giỏ hàng của bạn</h3>
+        <div *ngFor="let item of cartItems" class="cart-item">
+            <img [src]="item.image" alt="{{ item.name }}" />
+            <div class="item-details">
+                <p>{{ item.name }}</p>
+                <p>Size: {{ item.selectedSize }}</p>
+                <p>{{ item.price | currency: 'VND':'symbol':'1.0-0' }}</p>
+            </div>
+            <span>Số lượng: {{ item.quantity }}</span>
+        </div>
+         <!-- Nhập mã giảm giá -->
+         <div class="discount-section">
+            <input type="text" placeholder="Nhập mã giảm giá" [(ngModel)]="discountCode" class="form-control" />
+            <button class="apply-discount" (click)="applyDiscount()">Áp dụng</button>
+            <div *ngIf="discountError" class="error">
+                Mã giảm giá không hợp lệ. Vui lòng thử lại!
+            </div>
+        </div>
+
+        <!-- Tóm tắt đơn hàng -->
+        <div class="summary">
+            <p>Tạm tính: {{ totalAmount | currency: 'VND':'symbol':'1.0-0' }}</p>
+            <p>Phí vận chuyển: {{ shippingFee | currency: 'VND':'symbol':'1.0-0' }}</p>
+            <p>Giảm giá: -{{ discountAmount | currency: 'VND':'symbol':'1.0-0' }}</p>
+            <h3>Tổng cộng: {{ getTotalPrice() | currency: 'VND':'symbol':'1.0-0' }}</h3>
+        </div>
+
+        <!-- Nút Đặt hàng -->
+        <button class="checkout-btn" (click)="confirmOrder()" [disabled]="checkoutForm.invalid">
+            Đặt hàng
+        </button>
+    </div>
+</div>

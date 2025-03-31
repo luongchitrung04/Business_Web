@@ -1,0 +1,284 @@
+h3{
+    font-weight: 650;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+.about-first-section{
+    position: relative;
+}
+
+.about-first-section img{
+    width: 100vw;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #283044;
+}
+
+.about-second-section{
+    display: flex;
+    margin: 20px 100px;
+    gap: 200px;
+}
+
+.about-second-section img{
+    width: 500px;
+}
+
+.about-second-section p{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    width: 566px;
+}
+
+.about-third-section{
+    background-color: #283044;
+    color: white;
+    width: 100wh;
+    height: 953px;
+}
+
+.about-third-section-content{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    gap: 150px;
+}
+
+.about-third-section-content img{
+    width: 580px;
+    height: 300px;
+}
+
+.about-third-section-para{
+    text-align: justify;
+}
+
+.about-third-section-para h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-third-section-para p{
+    font-size: 20px;
+}
+
+.about-third-section-content-image img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-fourth-section{
+    margin: 20px 100px;
+}
+
+.about-fourth-section-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-fourth-section h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.member{
+    margin: auto;
+    text-align: center;
+}
+
+.member img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+.member h4{
+    margin-top: 0;
+}
+
+.about-fifth-section{
+    background-color: #55868C;
+    color: white;
+    padding: 10px;
+}
+
+.about-fifth-section h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-fifth-section h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-fifth-section iframe{
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 77rem) {
+    .text-overlay{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about-second-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        gap: 20px;
+    }
+
+    .about-second-section img {
+        width: 90%;
+    }
+
+    .about-second-section p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .about-third-section{
+        height: auto;
+    }
+
+    .about-third-section-content {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        gap: 20px;
+    }
+
+    .about-third-section-para h3{
+        font-size: 23px;
+    }
+
+    .about-third-section-para p{
+        font-size: 15px;
+    }
+
+    .about-third-section-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-fourth-section h3{
+        font-size: 23px;
+    }
+
+    .about-fourth-section-members {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-fifth-section h3 {
+        font-size: 23px;
+    }
+
+    .about-fifth-section h4{
+        font-size: 15px;
+    }
+    iframe{
+        width: 95%;
+        height: 200px ;
+    }
+}
+
+@media (max-width: 40rem) {
+    .text-overlay{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-second-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        gap: 20px;
+    }
+
+    .about-second-section img {
+        width: 90%;
+    }
+
+    .about-second-section p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .about-third-section{
+        height: auto;
+    }
+
+    .about-third-section-content {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        gap: 20px;
+    }
+
+    .about-third-section-para h3{
+        font-size: 23px;
+    }
+
+    .about-third-section-para p{
+        font-size: 15px;
+    }
+
+    .about-third-section-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-fourth-section h3{
+        font-size: 23px;
+    }
+
+    .about-fourth-section-members {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-fifth-section h3 {
+        font-size: 23px;
+    }
+
+    .about-fifth-section h4{
+        font-size: 15px;
+    }
+    iframe{
+        width: 95%;
+        height: 200px ;
+    }
+}

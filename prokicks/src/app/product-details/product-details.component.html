@@ -1,0 +1,81 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+<div *ngIf="selectedProduct" class="container">
+  <div class="main-content">
+    <div class="main-image">
+      <img [src]="mainImageSrc" alt="{{ selectedProduct.name }}" id="mainImage" />
+      <div class="product-images">
+        <img *ngFor="let image of [selectedProduct.image2, selectedProduct.image3, selectedProduct.image4, selectedProduct.image5]"
+             [src]="image" alt="{{ selectedProduct.name }}" (click)="changeImage(image)" />
+      </div>
+    </div>
+    <div class="product-details">
+      <h2>{{ selectedProduct.name }}</h2>
+      <div class="price">
+        <span *ngIf="selectedProduct.discount">
+          <span class="original-price">{{ selectedProduct.price | currency:'VND' }}</span>
+          <span class="discounted-price">
+            {{ selectedProduct.price - (selectedProduct.price * selectedProduct.discount / 100) | currency:'VND' }}
+          </span>
+        </span>
+        <span *ngIf="!selectedProduct.discount">
+          {{ selectedProduct.price | currency:'VND' }}
+        </span>
+      </div>
+
+      <!-- Chọn size -->
+      <div class="size-label">Size</div>
+      <div class="size-options">
+        <span *ngFor="let size of [36, 37, 38, 39, 40, 41, 42, 43, 44, 45]"
+              [class.selected]="isSelected(size)" (click)="selectSize(size)">
+          {{ size }}
+        </span>
+      </div>
+
+      <!-- Các nút hành động -->
+      <div class="buttons">
+        <button class="buy-now" (click)="addToCartAndCheckout()">MUA NGAY</button>
+        <button class="add-to-cart" (click)="addToCart()">THÊM VÀO GIỎ HÀNG</button>
+      </div>
+
+      <div class="icons">
+        <div class="icon-item"><i class="fas fa-phone-alt"></i><br>Hotline đặt hàng (8h30 - 21h)</div>
+        <div class="icon-item"><i class="fas fa-gift"></i><br>Nhận combo quà tặng</div>
+        <div class="icon-item"><i class="fas fa-shipping-fast"></i><br>Giao hàng siêu tốc</div>
+        <div class="icon-item"><i class="fas fa-credit-card"></i><br>Thanh toán tiện lợi</div>
+        <div class="icon-item"><i class="fas fa-truck"></i><br>Miễn phí vận chuyển trên 1 triệu</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <div class="tab">MÔ TẢ SẢN PHẨM</div>
+    <div class="tab-content product-description active">
+      <p><strong>{{ selectedProduct.name }}</strong></p>
+      <p>Hãng: {{ selectedProduct.brand }}</p>
+      <p>Loại: {{ selectedProduct.type }}</p>
+      <p>Loại giày: {{ selectedProduct.category }}</p>
+      <p>{{ selectedProduct.description }}</p>
+    </div>
+  </div>
+</div>
+<div class="related-products" *ngIf="relatedProducts.length > 0">
+  <h3>SẢN PHẨM CÙNG THƯƠNG HIỆU</h3>
+  <div class="product-grid">
+    <div *ngFor="let product of relatedProducts" class="product" (click)="goToProductDetails(product._id)">
+      <img [src]="product.image1" alt="{{ product.name }}" />
+      <h4>{{ product.name }}</h4>
+      <p>
+        <span *ngIf="product.discount">
+          <span class="original-price">{{ product.price | currency: 'VND' }}</span>
+          <span class="discounted-price">
+            {{ product.price - (product.price * product.discount / 100) | currency: 'VND' }}
+          </span>
+        </span>
+        <span *ngIf="!product.discount" class="relatedproduct-price">
+          {{ product.price | currency: 'VND' }}
+        </span>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="search-results-container">
+    <h2>Kết quả tìm kiếm cho "{{ searchQuery }}"</h2>
+    <div *ngIf="filteredProducts.length > 0; else noResults">
+        <div *ngFor="let product of filteredProducts" class="product-item" (click)="goToDetails(product)">
+            <div class="product-image">
+                <img [src]="product.image1" alt="{{ product.name }}">
+                <div class="discount-tag" *ngIf="product.discount">-{{ product.discount }}%</div>
+            </div>
+            <div class="product-info">
+                <h3>{{ product.name }}</h3>
+                <p *ngIf="product.discount" class="price">
+                    <span class="original-price">{{ product.price | currency: 'VND' }}</span>
+                    <span class="discounted-price">{{ product.price - (product.price * product.discount / 100) | currency: 'VND' }}</span>
+                </p>
+                <p *ngIf="!product.discount" class="price">{{ product.price | currency: 'VND' }}</p>
+            </div>
+        </div>
+    </div>
+    <ng-template #noResults>
+        <p class="no-results">Không tìm thấy sản phẩm nào</p>
+    </ng-template>
+</div>

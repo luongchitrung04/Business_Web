@@ -1,0 +1,66 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<div class="header">
+  <!-- Nút toggle hiển thị trên mobile -->
+  <button class="menu-toggle" (click)="toggleNavbar()">
+    <i class="fa fa-bars"></i>
+
+  </button>
+
+  <!-- Navbar -->
+  <div class="navbar" [class.active]="isNavbarActive">
+    <a class="nav-btn" routerLink="/home" routerLinkActive="active" (click)="closeNavbar()">TRANG CHỦ</a>
+    <a class="nav-btn" routerLink="/product" routerLinkActive="active" (click)="closeNavbar()">GIÀY BÓNG ĐÁ</a>
+    <a class="nav-btn" routerLink="/accessory" routerLinkActive="active" (click)="closeNavbar()">PHỤ KIỆN</a>
+    <a class="nav-btn" routerLink="/new" routerLinkActive="active" (click)="closeNavbar()">TIN TỨC</a>
+    <a class="nav-btn" routerLink="/about" routerLinkActive="active" (click)="closeNavbar()">VỀ PROKICKS</a>
+    <a class="nav-btn special-btn" routerLink="/sales" routerLinkActive="active" (click)="closeNavbar()">KÈO NGON</a>
+  </div>
+
+  <!-- Logo -->
+  <div class="logo">
+    <button class="button_logo" routerLink="/home" routerLinkActive="active">
+      <img src="./assets/tron.png" alt="ProKicks Logo" class="logo-img">
+    </button>
+  </div>
+
+  <!-- Thanh tìm kiếm -->
+  <div class="search">
+    <input
+      type="text"
+      [(ngModel)]="searchQuery"
+      placeholder="Tìm kiếm sản phẩm"
+      class="search-input"
+    />
+    <button class="search-btn" (click)="onSearch()">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+
+  <!-- User Actions -->
+  <div class="user-actions">
+    <button class="cart-btn" routerLink="/cart" routerLinkActive="active">
+      <img src="./assets/cart.png" alt="Giỏ hàng">
+    </button>
+    <div class="user">
+      <div class="dropdown" (mouseenter)="showDropdown = true" (mouseleave)="showDropdown = false">
+        <button class="cart-btn">
+          <span *ngIf="isLoggedIn"><img src="./assets/avatar.png" alt="User"></span>
+          <span *ngIf="!isLoggedIn" style="color:white;">ĐĂNG NHẬP</span>
+        </button>
+        <div class="dropdown-menu" *ngIf="showDropdown">
+          <ng-container *ngIf="!isLoggedIn">
+            <a routerLink="/login" class="dropdown-item">Đăng nhập</a>
+            <a routerLink="/register" class="dropdown-item">Đăng ký</a>
+          </ng-container>
+          <ng-container *ngIf="isLoggedIn">
+            <a routerLink="/profile" class="dropdown-item">Tài khoản của tôi</a>
+            <a routerLink="/order" class="dropdown-item">Đơn mua</a>
+            <a href="javascript:void(0)" (click)="logout()" class="dropdown-item">Đăng xuất</a>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <p class="marque">PROKICKS CAM KẾT HÀNG CHÍNH HÃNG PHÂN PHỐI CHÍNH NGẠCH. HOÀN TIỀN 200% NẾU PHÁT HIỆN HÀNG GIẢ, HÀNG NHÁI</p> -->

@@ -1,0 +1,175 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; /* Ensure row direction to align image on the left */
+}
+.image-container {
+    width: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    max-width: 100%;
+    max-height: 80vh;
+    height: auto;
+}
+.login-container {
+    width: 40%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="email"] {
+    width: 80%; /* Reduced width */
+    padding: 10px;
+    margin: 10px auto; /* Center the input fields */
+    display: block; /* Center the input fields */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+.login-container button {
+    width: 80%; /* Reduced width */
+    padding: 10px;
+    margin: 10px auto; /* Center the button */
+    display: block; /* Center the button */
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #333;
+}
+.login-container .forgot-password {
+    width: 80%; /* Reduced width */
+    margin: 10px auto; /* Center the text */
+    text-align: left; /* Align to the left */
+}
+.login-container .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+.login-container .forgot-password a:hover {
+    text-decoration: underline;
+}
+.login-container .or {
+    width: 80%; /* Reduced width */
+    margin: 20px auto; /* Center the text */
+    text-align: center;
+    position: relative;
+}
+.login-container .or::before,
+.login-container .or::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #ddd;
+}
+.login-container .or::before {
+    left: 0;
+}
+.login-container .or::after {
+    right: 0;
+}
+.login-container .or span {
+    background-color: #fff;
+    padding: 0 10px;
+    color: #888;
+}
+.login-container .social-login {
+    width: 80%; /* Reduced width */
+    margin: 10px auto; /* Center the buttons */
+    display: flex;
+    justify-content: space-between;
+}
+.login-container .social-login a {
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.login-container .social-login a.facebook {
+    background-color: #3b5998;
+}
+.login-container .social-login a.google {
+    background-color: #db4437;
+}
+.login-container .register {
+    width: 80%; /* Reduced width */
+    margin: 20px auto; /* Center the text */
+    text-align: center;
+}
+.login-container .register a {
+    color: #ff0000;
+    text-decoration: none;
+}
+.login-container .register a:hover {
+    text-decoration: underline;
+}
+.notification {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}  
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+@media (max-width: 1024px) {
+    .image-container {
+        width: 40%;
+        margin-right: 40px;
+    }
+}
+@media (max-width: 768px) {
+    /* .image-container {
+        width: 30%;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 576px) { */
+    .image-container {
+        display: none; /* Hide the image container on smaller screens */
+    }
+    .login-container {
+        width: 100%;
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,44 @@
+<div class="main-container">
+    <div class="container">
+        <div class="image-container">
+            <img alt="A store display with various sports shoes on shelves"
+                src="https://i.pinimg.com/736x/a3/21/35/a3213525bbb16051ff8a72acdb29ffc3.jpg" />
+        </div>
+        <div class="login-container">
+            <h2>
+                ĐĂNG NHẬP
+            </h2>
+            <input placeholder="Email" type="text" [(ngModel)]="email" />
+            <input placeholder="Mật khẩu" type="password" [(ngModel)]="password" />
+            <button (click)="login()">Đăng nhập</button>
+            <p *ngIf="errorMessage">{{ errorMessage }}</p>
+            <div class="forgot-password">
+                <a routerLink="/reset-password">Quên mật khẩu?</a>
+            </div>            
+            <div class="or">
+                <span>
+                    HOẶC
+                </span>
+            </div>
+            <div class="social-login">
+                <a class="facebook" href="#">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                    Facebook
+                </a>
+                <a class="google" href="#">
+                    <i class="fab fa-google">
+                    </i>
+                    Google
+                </a>
+            </div>
+            <div class="register">
+                Bạn mới biết đến ProKicks?
+                <button  routerLink="/register" routerLinkActive="active">
+                    Đăng ký
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>

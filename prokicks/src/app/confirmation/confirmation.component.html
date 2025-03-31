@@ -1,0 +1,57 @@
+<div class="confirmation-container">
+  <h2>Đặt hàng thành công!</h2>
+  <p>Cảm ơn bạn đã đặt hàng! Chúng tôi sẽ liên hệ với bạn sớm nhất.</p>
+
+  <!-- Hiển thị mã đơn hàng -->
+  <h3>Mã đơn hàng: {{ orderDetails.orderId }}</h3>
+
+  <h3>Thông tin chi tiết đơn hàng</h3>
+  <div class="customer-info">
+    <p><strong>Họ và tên:</strong> {{ orderDetails.customerName }}</p>
+    <p><strong>Số điện thoại:</strong> {{ orderDetails.phone }}</p>
+    <p><strong>Địa chỉ:</strong> {{ orderDetails.address }}</p>
+    <p><strong>Phương thức thanh toán:</strong> {{ orderDetails.paymentMethod }}</p>
+  </div>
+
+  <!-- Hiển thị thông tin thanh toán tuỳ theo phương thức thanh toán -->
+  <div class="payment-info">
+    <div *ngIf="orderDetails.paymentMethod === 'COD'">
+      <h4>Bạn đã chọn thanh toán khi nhận hàng (COD).</h4>
+      <p>Vui lòng thanh toán cho nhân viên giao hàng khi nhận hàng.</p>
+    </div>
+
+    <div *ngIf="orderDetails.paymentMethod === 'Bank'">
+      <h4>Thông tin chuyển khoản ngân hàng:</h4>
+      <p>Ngân hàng: Vietcombank</p>
+      <p>Chủ tài khoản: Công ty ABC</p>
+      <p>Số tài khoản: 0123456789</p>
+      <p>Nội dung chuyển khoản: {{ orderDetails.orderId }} - {{ orderDetails.customerName }}</p>
+    </div>
+
+    <div *ngIf="orderDetails.paymentMethod === 'MoMo'">
+      <h4>Thông tin thanh toán qua ví MoMo:</h4>
+      <p>Vui lòng mở ứng dụng MoMo và quét mã QR để thanh toán.</p>
+      <img src="./assets/momo.png" alt="Mã QR MoMo" class="qr-code" />
+      <p>Mã đơn hàng: {{ orderDetails.orderId }}</p>
+    </div>
+  </div>
+
+  <h3>Danh sách sản phẩm</h3>
+  <div *ngFor="let item of orderDetails.items" class="order-item">
+    <img [src]="item.image" alt="{{ item.name }}" />
+    <div>
+      <p>{{ item.name }}</p>
+      <p>Size: {{ item.selectedSize }}</p>
+      <p>Số lượng: {{ item.quantity }}</p>
+      <p>{{ item.price | currency: 'VND':'symbol':'1.0-0' }}</p>
+    </div>
+  </div>
+
+  <div class="summary">
+    <p>Tạm tính: {{ totalAmount | currency: 'VND':'symbol':'1.0-0' }}</p>
+    <p>Phí vận chuyển: {{ shippingFee | currency: 'VND':'symbol':'1.0-0' }}</p>
+    <h3>Tổng cộng: {{ getTotalPrice() | currency: 'VND':'symbol':'1.0-0' }}</h3>
+  </div>
+
+  <button routerLink="/home" class="back-home-btn">Quay về trang chủ</button>
+</div>

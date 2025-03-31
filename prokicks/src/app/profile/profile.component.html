@@ -1,0 +1,38 @@
+<div class="profile-container">
+    <h2>Thông tin tài khoản</h2>
+  
+    <!-- Hiển thị thông tin người dùng -->
+    <div *ngIf="!isEditing" class="profile-view">
+      <p><strong>Họ:</strong> {{ user.firstname }}</p>
+      <p><strong>Tên:</strong> {{ user.lastname }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>Địa chỉ:</strong> {{ user.address }}</p>
+      <p><strong>Số điện thoại:</strong> {{ user.phonenumber }}</p>
+      <button (click)="toggleEdit()">Chỉnh sửa</button>
+    </div>
+  
+    <!-- Chế độ chỉnh sửa -->
+    <form *ngIf="isEditing" class="profile-edit">
+      <label>Họ:</label>
+      <input type="text" [(ngModel)]="user.firstname" name="firstname" />
+  
+      <label>Tên:</label>
+      <input type="text" [(ngModel)]="user.lastname" name="lastname" />
+  
+      <label>Email:</label>
+      <input type="email" [(ngModel)]="user.email" name="email" disabled />
+  
+      <label>Địa chỉ:</label>
+      <input type="text" [(ngModel)]="user.address" name="address" />
+  
+      <label>Số điện thoại:</label>
+      <input type="text" [(ngModel)]="user.phonenumber" name="phonenumber" />
+  
+      <button type="button" (click)="updateProfile()">Lưu</button>
+      <button type="button" class="cancel-btn" (click)="toggleEdit()">Hủy</button>
+    </form>
+  
+    <p class="success-message" *ngIf="successMessage">{{ successMessage }}</p>
+    <p class="error-message" *ngIf="errorMessage">{{ errorMessage }}</p>
+  </div>
+  

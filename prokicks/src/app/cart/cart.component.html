@@ -1,0 +1,35 @@
+<h2>GIỎ HÀNG CỦA BẠN</h2>
+<p *ngIf="showErrorMessage" class="error-message">Vui lòng chọn ít nhất một sản phẩm để đặt hàng.</p>
+<div *ngFor="let item of cartItems; let i = index" class="cart-item">
+  <!-- Checkbox cho phép chọn sản phẩm -->
+  <input type="checkbox" [(ngModel)]="item.selected" name="selected{{i}}" />
+  <button class="remove-btn" (click)="removeItem(item.productId)">✖</button>
+  <img [src]="item.image" alt="{{ item.name }}" class="product-image" />
+  <div class="item-details">
+    <p class="product-name">{{ item.name }}</p>
+    <p>Size: {{ item.selectedSize }}</p>
+  </div>
+  <div class="item-price">{{ item.price | currency:'VND' }}</div>
+  <div class="quantity-container">
+    <button (click)="decreaseQuantity(i)">-</button>
+    <input type="number" [(ngModel)]="item.quantity" min="1" />
+    <button (click)="increaseQuantity(i)">+</button>
+  </div>
+</div>
+
+
+
+<!-- Phần thanh toán -->
+<div class="checkout-section">
+  <div class="total-price">
+    <span>Tổng cộng: </span>
+    <strong>{{ getSelectedTotalPrice() | currency:'VND' }}</strong>
+    <p>(Đã bao gồm VAT nếu có)</p>
+  </div>
+  <button 
+    class="checkout-btn" 
+    (click)="checkoutSelectedItems()" 
+    [disabled]="!hasSelectedItems()">
+    ĐẶT HÀNG
+  </button>
+</div>

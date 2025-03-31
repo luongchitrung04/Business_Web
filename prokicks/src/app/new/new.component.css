@@ -1,0 +1,146 @@
+/* Main container for news */
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* Highlighted news (the first one) */
+.highlighted-news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlighted-news img {
+  flex: 1;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  margin: 20px;
+}
+
+.highlighted-content {
+  flex: 2;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.highlighted-content h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.highlighted-content p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.highlighted-content button {
+  align-self: flex-start;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white; /* Màu chữ tối */
+  background-color: #55868C; /* Nền sáng */
+  border: 1px solid #55868C; /* Viền cùng màu với nền */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.highlighted-content button:hover {
+  background-color: #B2945B; /* Nền xám nhạt hơn khi hover */
+  border-color: #B2945B; /* Viền xám nhạt hơn khi hover */
+}
+
+/* News grid for other articles */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 10px;
+}
+
+.news-content h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.news-content p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Hover effect */
+.news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.pagination a {
+  padding: 8px 12px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #55868C;
+  color: #fff;
+}
+
+.pagination a.disabled {
+  color: #bbb;
+  pointer-events: none;
+  background-color: #f0f0f0;
+}
+
+.pagination a.active {
+  background-color: #55868C;
+  color: #fff;
+  pointer-events: none;
+}

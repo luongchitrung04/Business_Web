@@ -1,0 +1,27 @@
+<div class="news-container">
+  <div *ngIf="selectedNew; else loading">
+    <h1 class="news-title">{{ selectedNew.title }}</h1>
+    <img [src]="selectedNew.image" alt="{{ selectedNew.title }}" class="news-image" />
+    <p class="news-content">{{ selectedNew.content }}</p>
+  </div>
+  <ng-template #loading>
+    <p class="loading-text">Loading News details...</p>
+  </ng-template>
+
+  <div *ngIf="relatedNews.length > 0" class="related-news-container">
+    <h3 class="related-news-title">Các bài viết liên quan</h3>
+    <div class="related-items">
+      <div *ngFor="let news of relatedNews" class="related-item" (click)="goToNewDetails(news._id)">
+        <img [src]="news.image" alt="{{ news.title }}" class="related-image" />
+        <div class="related-info">
+          <h4 class="related-title">{{ news.title }}</h4>
+          <p class="related-date">Ngày: {{ news.date }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="back-button-container">
+    <button class="back-button" (click)="goBack()">← Quay lại</button>
+  </div>
+</div>

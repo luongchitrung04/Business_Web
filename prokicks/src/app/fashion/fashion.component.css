@@ -1,0 +1,328 @@
+
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    top: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+} 
+
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper i {
+    pointer-events: auto;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.wrapper i:hover {
+    background-color: #B2945B;
+    color: #fff;
+}
+
+.wrapper i:first-child {
+    left: 10px;
+}
+
+.wrapper i:last-child {
+    right: 10px;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(33.33% + 6px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0 30px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height: 340px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card .img {
+    width: 150px;   /* Giữ lại kích thước container cho ảnh */
+    height: 150px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .img img {
+    width: 100%;    /* Đảm bảo ảnh chiếm toàn bộ không gian của container */
+    height: 100%;   /* Đảm bảo ảnh chiếm toàn bộ chiều cao của container */
+    object-fit: cover; /* Đảm bảo ảnh phủ đầy khung mà không bị méo */
+    border-radius: 0; /* Loại bỏ viền bo tròn */
+    border: none;   /* Loại bỏ viền trắng */
+    display: block; /* Đảm bảo ảnh không bị inline */
+}
+.nav-link {
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-link.active {
+    color: #007bff; /* Màu xanh cho tab đang hoạt động */
+    border-bottom: 2px solid #007bff; /* Gạch chân tab đang hoạt động */
+  }
+  
+
+.card h5 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.price {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888; /* Màu sắc cho giá gốc */
+}
+
+.discounted-price {
+    color: red; /* Màu đỏ tươi cho giá giảm */
+    font-weight: 700;
+}
+
+.discount-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red; /* Màu đỏ của btn-danger */
+    color: #fff; /* Màu chữ trắng */
+    padding: 0.375rem 0.75rem; /* Padding tương tự btn */
+    border-radius: 0.25rem; /* Bo góc nhẹ giống btn */
+    font-size: 1rem; /* Cỡ chữ vừa phải */
+    font-weight: 650; /* Độ dày chữ */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Hiệu ứng hover */
+}
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc(50% + 6px);
+        padding: 0 20px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc(100% + 10px);
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+}
+
+/* Buttons */
+.btn-keongon {
+    display: inline-block; /* Đảm bảo hiển thị như một nút */
+    width: 10.5rem;
+    height: 3rem;
+    margin: 20px 20px;
+    color: #fff; /* Màu chữ trắng */
+    background-color: red; /* Màu đỏ của btn-danger */
+    border: 1px solid red; /* Viền cùng màu */
+    padding: 0.375rem 0.75rem; /* Padding chuẩn của btn */
+    font-size: 1.3rem; /* Cỡ chữ chuẩn */
+    line-height: 1.5; /* Khoảng cách dòng */
+    font-weight: 650;
+    border-radius: 0.25rem; /* Bo góc nhẹ */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    cursor: pointer; /* Con trỏ dạng nút */
+    /* transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; Hiệu ứng hover */
+}
+.seeall {
+    display: block; /* Hiển thị giống một nút */
+    padding: 0.375rem 0.75rem; /* Padding chuẩn của btn */
+    margin: 10px auto; /* Canh giữa và cách đều */
+    color: #212529; /* Màu chữ của btn-default */
+    background-color: #f8f9fa; /* Màu nền nhạt của btn-default */
+    border: 1px solid #ced4da; /* Viền nhạt */
+    font-size: 1rem; /* Cỡ chữ chuẩn */
+    font-weight: 500;
+    line-height: 1.5; /* Khoảng cách dòng */
+    border-radius: 0.25rem; /* Bo góc nhẹ */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Loại bỏ gạch chân nếu là thẻ <a> */
+    cursor: pointer; /* Con trỏ chuột dạng nút */
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Hiệu ứng hover */
+}
+.seeall:hover {
+    background-color: #e2e6ea; /* Màu hover nhẹ hơn */
+    border-color: #dae0e5; /* Viền đậm hơn khi hover */
+}
+
+/* Navigation Tabs */
+.nav {
+    margin-left: 20px;
+}
+
+.custom-nav .nav-link {
+    width: 10rem;
+    height: 3rem;
+    margin: 20px 0;
+    color: #fff; /* Màu chữ trắng */
+    background-color: #5a9a9e; /* Màu đỏ của btn-danger */
+    border: 1px solid #5a9a9e; /* Viền cùng màu */
+    font-size: 0.7rem; /* Cỡ chữ chuẩn */
+    line-height: 2.7; /* Khoảng cách dòng */
+    font-weight: 650;
+    border-radius: 0.25rem; /* Bo góc nhẹ */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    cursor: pointer; /* Con trỏ dạng nút */
+    /* transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; Hiệu ứng hover */
+}
+
+.custom-nav .nav-link:active {
+    background-color: #B2945B;
+    font-weight: bold;
+}
+
+.nav a.active {
+    background-color: #B2945B;
+    font-weight: bold;
+}
+
+.custom-nav .nav-link:hover {
+    background-color: #B2945B;
+}
+
+.nav-tabs {
+    border-bottom: none; /* Xóa đường kẻ dưới */
+}
+
+.nav-tabs .nav-link {
+    border: none; /* Xóa viền dưới của các liên kết */
+}
+
+.nav-tabs .nav-link.active {
+    border: none; /* Xóa viền của tab đang được chọn */
+}
+
+/* Accessories Button */
+.btn-phukien {
+    display: inline-block; /* Đảm bảo hiển thị như một nút */
+    width: 10.5rem;
+    height: 3rem;
+    margin: 20px 20px;
+    color: #fff; /* Màu chữ trắng */
+    background-color: #B2945B; /* Màu đỏ của btn-danger */
+    border: 1px solid #B2945B; /* Viền cùng màu */
+    padding: 0.375rem 0.75rem; /* Padding chuẩn của btn */
+    font-size: 1.3rem; /* Cỡ chữ chuẩn */
+    line-height: 1.5; /* Khoảng cách dòng */
+    font-weight: 650;
+    border-radius: 0.25rem; /* Bo góc nhẹ */
+    text-align: center; /* Canh giữa nội dung */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    cursor: pointer; /* Con trỏ dạng nút */
+    /* transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; Hiệu ứng hover */
+}
+
+/* MP3 Section */
+.mp3-div {
+    width: 100%; /* Tránh gây tràn nội dung ngang */
+    overflow: hidden;
+}
+
+.mp3image {
+    width: 100%;
+    height: auto;
+    display: block;
+}

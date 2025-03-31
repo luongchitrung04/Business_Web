@@ -1,0 +1,47 @@
+<div class="order-container">
+    <h2 class="section-title">Lịch sử đơn hàng của bạn</h2>
+
+    <!-- Tabs cho các trạng thái đơn hàng -->
+    <div class="tabs">
+        <button (click)="selectTab('Chờ xác nhận')" [class.active]="selectedTab === 'Chờ xác nhận'">Chờ xác
+            nhận</button>
+        <button (click)="selectTab('Chờ giao hàng')" [class.active]="selectedTab === 'Chờ giao hàng'">Chờ giao
+            hàng</button>
+        <button (click)="selectTab('Đã giao')" [class.active]="selectedTab === 'Đã giao'">Đã giao</button>
+        <button (click)="selectTab('Đã hủy')" [class.active]="selectedTab === 'Đã hủy'">Đã hủy</button>
+    </div>
+
+    <!-- Hiển thị danh sách đơn hàng theo trạng thái -->
+    <div *ngFor="let order of filteredOrders[selectedTab]" class="order-item">
+        <div class="order-header">
+            <h3>Mã đơn hàng: <span>{{ order.orderId }}</span></h3>
+            <h3>Tổng cộng: <span>{{ order.totalAmount | currency: 'VND' }}</span></h3>
+        </div>
+        <div class="order-details">
+            <p><strong>Họ và tên:</strong> {{ order.customerName }}</p>
+            <p><strong>Số điện thoại:</strong> {{ order.phone }}</p>
+            <p><strong>Địa chỉ:</strong> {{ order.address }}</p>
+            <p><strong>Phương thức thanh toán:</strong> {{ order.paymentMethod }}</p>
+        </div>
+        <h4>Danh sách sản phẩm:</h4>
+        <div class="order-products">
+            <div *ngFor="let item of order.items" class="product-item" (click)="goToDetails(item)"
+            style="cursor: pointer;">
+                <img [src]="item.image" alt="{{ item.name }}" />
+                <div class="product-details">
+                    <p>{{ item.name }}</p>
+                    <p>Loại: {{ item.type }}</p>
+                    <p>Size: {{ item.selectedSize }}</p>
+                    <p>Số lượng: {{ item.quantity }}</p>
+                    <p>Giá: {{ item.price | currency: 'VND' }}</p>
+                </div>
+            </div>
+        </div>
+        <button *ngIf="order.status === 'Chờ xác nhận'" (click)="cancelOrder(order.orderId)" class="btn-cancel">Hủy đơn hàng</button>
+        <button *ngIf="order.status === 'Đã giao' || order.status === 'Đã hủy'" 
+          (click)="reorder(order)" class="btn-reorder">
+    Mua lại
+  </button>
+
+    </div>
+</div>

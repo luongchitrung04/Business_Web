@@ -1,0 +1,150 @@
+<div class="header">
+  <img src="./assets/accessory/super_deal-09_5bda4444da3c4399b0aa96bfbde5a0ad.jpg" alt="">
+</div>
+<div class="main-title">
+  <h1>KÈO NGON - CHỐT NGAY</h1>
+</div>
+<div class="container">
+  <div class="sidebar">
+    <h4>TÌM THEO</h4>
+    <h5>Sản phẩm</h5>
+    <ul>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Nike')"
+          [checked]="filters.brand === 'Nike'" /> Nike
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Adidas')"
+          [checked]="filters.brand === 'Adidas'" /> Adidas
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Puma')"
+          [checked]="filters.brand === 'Puma'" /> Puma
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Mizuno')"
+          [checked]="filters.brand === 'Mizuno'" /> Mizuno
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Asics')"
+          [checked]="filters.brand === 'Asics'" /> Asics
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Kamito')"
+          [checked]="filters.brand === 'Kamito'" /> Kamito
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Joma')"
+          [checked]="filters.brand === 'Joma'" /> Joma
+      </li>
+      <li>
+        <input type="checkbox" (change)="onCheckboxChange($event, 'brand', 'Zocker')"
+          [checked]="filters.brand === 'Zocker'" /> Zocker
+      </li>
+    </ul>
+    <h5>Mức giá</h5>
+    <ul>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 0, max: 500000 })"
+          [checked]="filters.price && filters.price.min === 0 && filters.price.max === 500000" />Dưới 500.000₫</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 500000, max: 1000000 })"
+          [checked]="filters.price && filters.price.min === 500000 && filters.price.max === 1000000" />500.000₫ -
+        1.000.000₫</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 1000000, max: 2000000 })"
+          [checked]="filters.price && filters.price.min === 1000000 && filters.price.max === 2000000" />1.000.000₫ -
+        2.000.000₫</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 2000000, max: 3000000 })"
+          [checked]="filters.price && filters.price.min === 2000000 && filters.price.max === 3000000" />2.000.000₫ -
+        3.000.000₫</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 3000000, max: 4000000 })"
+          [checked]="filters.price && filters.price.min === 3000000 && filters.price.max === 4000000" />3.000.000₫ -
+        4.000.000₫</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 4000000, max: 5000000 })"
+          [checked]="filters.price && filters.price.min === 4000000 && filters.price.max === 5000000" />4.000.000₫ -
+        5.000.000₫</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'price', { min: 5000000, max: 999999999 })"
+          [checked]="filters.price && filters.price.min === 5000000 && filters.price.max === 999999" />Trên 5.000.000₫
+      </li>
+    </ul>
+    <h5>Màu sắc</h5>
+    <ul>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'white')"
+          [checked]="filters.color === 'white'" />Trắng</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'black')"
+          [checked]="filters.color === 'black'" />Đen</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'red')"
+          [checked]="filters.color === 'red'" />Đỏ</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'blue')"
+          [checked]="filters.color === 'blue'" />Xanh Dương</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'green')"
+          [checked]="filters.color === 'green'" />Xanh lá</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'yellow')"
+          [checked]="filters.color === 'yellow'" />Vàng</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'pink')"
+          [checked]="filters.color === 'pink'" />Hồng</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'orange')"
+          [checked]="filters.color === 'orange'" />Cam</li>
+      <li><input type="checkbox" (change)="onCheckboxChange($event, 'color', 'sliver')"
+          [checked]="filters.color === 'sliver'" />Bạc</li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="filter-bar">
+      <table>
+        <tr>
+          <td><label for="sort" style="font-weight: bold;">Sắp xếp theo: </label></td>
+          <td>
+            <select id="sort" (change)="sortProducts($event)">
+              <option value="default">Mặc định</option>
+              <option value="newest">Mới nhất</option>
+              <option value="oldest">Cũ nhất</option>
+              <option value="name-asc">Tên: A-Z</option>
+              <option value="name-desc">Tên: Z-A</option>
+              <option value="price-asc">Giá: Tăng dần</option>
+              <option value="price-desc">Giá: Giảm dần</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="product-grid">
+      <div *ngFor="let product of displayedProducts" class="product" (click)="goToProductDetails(product._id)">
+        <div class="discount-tag" *ngIf="product.discount">
+          -{{product.discount}}%
+        </div>
+        <div class="heart-icon" *ngIf="product.discount">
+          KÈO NGON
+        </div>
+        <img [src]="product.image1" alt="Product Image" />
+        <h2>{{ product.name }}</h2>
+        <div class="price">
+          <span *ngIf="product.discount">
+            <span class="original-price">{{ product.price | currency:'VND' }}</span>
+            <span class="discounted-price">
+              {{ product.price - (product.price * product.discount / 100) | currency:'VND' }}
+            </span>
+          </span>
+          <span *ngIf="!product.discount">
+            {{ product.price | currency:'VND' }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination" style="margin-top: 20px; margin-bottom: 20px;">
+      <a href="javascript:void(0)" (click)="goToPage(1)" [class.disabled]="currentPage === 1">««</a>
+      <a href="javascript:void(0)" (click)="previousPage()" [class.disabled]="currentPage === 1">«</a>
+      <span *ngFor="let page of pages">
+        <a href="javascript:void(0)" (click)="goToPage(page)" [class.active]="page === currentPage">{{ page }}</a>
+      </span>
+      <a href="javascript:void(0)" (click)="nextPage()" [class.disabled]="currentPage === totalPages">»</a>
+      <a href="javascript:void(0)" (click)="goToPage(totalPages)" [class.disabled]="currentPage === totalPages">»»</a>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="footer">
+  <img src="./assets/accessory/z6050551161293_c57678afbeda440d325d7f5045c38594.jpg" alt="">
+</div>
