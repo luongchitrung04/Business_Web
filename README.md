@@ -116,9 +116,3 @@ prokicks-project/
 
 ### **Database**
 - MongoDB
-
----
-
-## Tác giả
-- **ProKicks**: [GitHub Repository](https://github.com/HieuCaoPhanTrung)
-- Liên hệ: **hieucpt22406@st.uel.edu.vn**
